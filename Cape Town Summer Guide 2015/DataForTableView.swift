@@ -18,10 +18,10 @@ class DataForTableView {
         }
     }
         let places = [
-            Entry(fName: "1.png", heading: "Heading 1"),
-            Entry(fName: "2.png", heading: "Heading 2"),
-            Entry(fName: "3.png", heading: "Heading 3"),
-            Entry(fName: "4.png", heading: "Heading 4"),
-            Entry(fName: "5.png", heading: "Heading 5")
+            Entry(fName: "MARKETS.png", heading: "Heading 1"),
+            Entry(fName: "SCUBA.png", heading: "Heading 2"),
+            Entry(fName: "GRAFFITI WALK.png", heading: "Heading 3"),
+            Entry(fName: "SHOP.png", heading: "Heading 4"),
+            Entry(fName: "FEED SQUIRRELS.png", heading: "Heading 5")
         ]
     }
