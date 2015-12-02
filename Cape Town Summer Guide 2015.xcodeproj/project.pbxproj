@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E896C171C0DCACA005CB370 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E896C161C0DCACA005CB370 /* AppDelegate.swift */; };
+		6E896C1C1C0DCACA005CB370 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E896C1A1C0DCACA005CB370 /* Main.storyboard */; };
+		6E896C1E1C0DCACA005CB370 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E896C1D1C0DCACA005CB370 /* Assets.xcassets */; };
+		6E896C211C0DCACA005CB370 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E896C1F1C0DCACA005CB370 /* LaunchScreen.storyboard */; };
+		6E896C2C1C0DCACA005CB370 /* Cape_Town_Summer_Guide_2015Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E896C2B1C0DCACA005CB370 /* Cape_Town_Summer_Guide_2015Tests.swift */; };
+		6E896C371C0DCACA005CB370 /* Cape_Town_Summer_Guide_2015UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E896C361C0DCACA005CB370 /* Cape_Town_Summer_Guide_2015UITests.swift */; };
+		6E896C491C0DCBE5005CB370 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E896C441C0DCBE5005CB370 /* 5.png */; settings = {ASSET_TAGS = (); }; };
+		6E896C4A1C0DCBE5005CB370 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E896C451C0DCBE5005CB370 /* 1.png */; settings = {ASSET_TAGS = (); }; };
+		6E896C4B1C0DCBE5005CB370 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E896C461C0DCBE5005CB370 /* 4.png */; settings = {ASSET_TAGS = (); }; };
+		6E896C4C1C0DCBE5005CB370 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E896C471C0DCBE5005CB370 /* 3.png */; settings = {ASSET_TAGS = (); }; };
+		6E896C4D1C0DCBE5005CB370 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E896C481C0DCBE5005CB370 /* 2.png */; settings = {ASSET_TAGS = (); }; };
+		6E896C501C0DCC3E005CB370 /* DataForTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E896C4F1C0DCC3E005CB370 /* DataForTableView.swift */; settings = {ASSET_TAGS = (); }; };
+		6E896C521C0DCD51005CB370 /* PlacesInCapeTownTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E896C511C0DCD51005CB370 /* PlacesInCapeTownTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		6E896C541C0DD119005CB370 /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E896C531C0DD119005CB370 /* PlaceTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E896C281C0DCACA005CB370 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E896C0B1C0DCACA005CB370 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E896C121C0DCACA005CB370;
+			remoteInfo = "Cape Town Summer Guide 2015";
+		};
+		6E896C331C0DCACA005CB370 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E896C0B1C0DCACA005CB370 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E896C121C0DCACA005CB370;
+			remoteInfo = "Cape Town Summer Guide 2015";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E896C131C0DCACA005CB370 /* Cape Town Summer Guide 2015.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cape Town Summer Guide 2015.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E896C161C0DCACA005CB370 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6E896C1B1C0DCACA005CB370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E896C1D1C0DCACA005CB370 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E896C201C0DCACA005CB370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E896C221C0DCACA005CB370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E896C271C0DCACA005CB370 /* Cape Town Summer Guide 2015Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cape Town Summer Guide 2015Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E896C2B1C0DCACA005CB370 /* Cape_Town_Summer_Guide_2015Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cape_Town_Summer_Guide_2015Tests.swift; sourceTree = "<group>"; };
+		6E896C2D1C0DCACA005CB370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E896C321C0DCACA005CB370 /* Cape Town Summer Guide 2015UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cape Town Summer Guide 2015UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E896C361C0DCACA005CB370 /* Cape_Town_Summer_Guide_2015UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cape_Town_Summer_Guide_2015UITests.swift; sourceTree = "<group>"; };
+		6E896C381C0DCACA005CB370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E896C441C0DCBE5005CB370 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 5.png; path = ../5.png; sourceTree = "<group>"; };
+		6E896C451C0DCBE5005CB370 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = ../1.png; sourceTree = "<group>"; };
+		6E896C461C0DCBE5005CB370 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4.png; path = ../4.png; sourceTree = "<group>"; };
+		6E896C471C0DCBE5005CB370 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3.png; path = ../3.png; sourceTree = "<group>"; };
+		6E896C481C0DCBE5005CB370 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = ../2.png; sourceTree = "<group>"; };
+		6E896C4F1C0DCC3E005CB370 /* DataForTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataForTableView.swift; sourceTree = "<group>"; };
+		6E896C511C0DCD51005CB370 /* PlacesInCapeTownTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlacesInCapeTownTableViewController.swift; path = ../PlacesInCapeTownTableViewController.swift; sourceTree = "<group>"; };
+		6E896C531C0DD119005CB370 /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E896C101C0DCACA005CB370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E896C241C0DCACA005CB370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E896C2F1C0DCACA005CB370 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E896C0A1C0DCACA005CB370 = {
+			isa = PBXGroup;
+			children = (
+				6E896C151C0DCACA005CB370 /* Cape Town Summer Guide 2015 */,
+				6E896C2A1C0DCACA005CB370 /* Cape Town Summer Guide 2015Tests */,
+				6E896C351C0DCACA005CB370 /* Cape Town Summer Guide 2015UITests */,
+				6E896C141C0DCACA005CB370 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E896C141C0DCACA005CB370 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E896C131C0DCACA005CB370 /* Cape Town Summer Guide 2015.app */,
+				6E896C271C0DCACA005CB370 /* Cape Town Summer Guide 2015Tests.xctest */,
+				6E896C321C0DCACA005CB370 /* Cape Town Summer Guide 2015UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E896C151C0DCACA005CB370 /* Cape Town Summer Guide 2015 */ = {
+			isa = PBXGroup;
+			children = (
+				6E896C161C0DCACA005CB370 /* AppDelegate.swift */,
+				6E896C4F1C0DCC3E005CB370 /* DataForTableView.swift */,
+				6E896C511C0DCD51005CB370 /* PlacesInCapeTownTableViewController.swift */,
+				6E896C531C0DD119005CB370 /* PlaceTableViewCell.swift */,
+				6E896C1A1C0DCACA005CB370 /* Main.storyboard */,
+				6E896C1D1C0DCACA005CB370 /* Assets.xcassets */,
+				6E896C1F1C0DCACA005CB370 /* LaunchScreen.storyboard */,
+				6E896C221C0DCACA005CB370 /* Info.plist */,
+				6E896C4E1C0DCC01005CB370 /* Selection images */,
+			);
+			path = "Cape Town Summer Guide 2015";
+			sourceTree = "<group>";
+		};
+		6E896C2A1C0DCACA005CB370 /* Cape Town Summer Guide 2015Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6E896C2B1C0DCACA005CB370 /* Cape_Town_Summer_Guide_2015Tests.swift */,
+				6E896C2D1C0DCACA005CB370 /* Info.plist */,
+			);
+			path = "Cape Town Summer Guide 2015Tests";
+			sourceTree = "<group>";
+		};
+		6E896C351C0DCACA005CB370 /* Cape Town Summer Guide 2015UITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E896C361C0DCACA005CB370 /* Cape_Town_Summer_Guide_2015UITests.swift */,
+				6E896C381C0DCACA005CB370 /* Info.plist */,
+			);
+			path = "Cape Town Summer Guide 2015UITests";
+			sourceTree = "<group>";
+		};
+		6E896C4E1C0DCC01005CB370 /* Selection images */ = {
+			isa = PBXGroup;
+			children = (
+				6E896C441C0DCBE5005CB370 /* 5.png */,
+				6E896C451C0DCBE5005CB370 /* 1.png */,
+				6E896C461C0DCBE5005CB370 /* 4.png */,
+				6E896C471C0DCBE5005CB370 /* 3.png */,
+				6E896C481C0DCBE5005CB370 /* 2.png */,
+			);
+			name = "Selection images";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E896C121C0DCACA005CB370 /* Cape Town Summer Guide 2015 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E896C3B1C0DCACA005CB370 /* Build configuration list for PBXNativeTarget "Cape Town Summer Guide 2015" */;
+			buildPhases = (
+				6E896C0F1C0DCACA005CB370 /* Sources */,
+				6E896C101C0DCACA005CB370 /* Frameworks */,
+				6E896C111C0DCACA005CB370 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cape Town Summer Guide 2015";
+			productName = "Cape Town Summer Guide 2015";
+			productReference = 6E896C131C0DCACA005CB370 /* Cape Town Summer Guide 2015.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E896C261C0DCACA005CB370 /* Cape Town Summer Guide 2015Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E896C3E1C0DCACA005CB370 /* Build configuration list for PBXNativeTarget "Cape Town Summer Guide 2015Tests" */;
+			buildPhases = (
+				6E896C231C0DCACA005CB370 /* Sources */,
+				6E896C241C0DCACA005CB370 /* Frameworks */,
+				6E896C251C0DCACA005CB370 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E896C291C0DCACA005CB370 /* PBXTargetDependency */,
+			);
+			name = "Cape Town Summer Guide 2015Tests";
+			productName = "Cape Town Summer Guide 2015Tests";
+			productReference = 6E896C271C0DCACA005CB370 /* Cape Town Summer Guide 2015Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E896C311C0DCACA005CB370 /* Cape Town Summer Guide 2015UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E896C411C0DCACA005CB370 /* Build configuration list for PBXNativeTarget "Cape Town Summer Guide 2015UITests" */;
+			buildPhases = (
+				6E896C2E1C0DCACA005CB370 /* Sources */,
+				6E896C2F1C0DCACA005CB370 /* Frameworks */,
+				6E896C301C0DCACA005CB370 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E896C341C0DCACA005CB370 /* PBXTargetDependency */,
+			);
+			name = "Cape Town Summer Guide 2015UITests";
+			productName = "Cape Town Summer Guide 2015UITests";
+			productReference = 6E896C321C0DCACA005CB370 /* Cape Town Summer Guide 2015UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E896C0B1C0DCACA005CB370 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Hugo Prinsloo";
+				TargetAttributes = {
+					6E896C121C0DCACA005CB370 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					6E896C261C0DCACA005CB370 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 6E896C121C0DCACA005CB370;
+					};
+					6E896C311C0DCACA005CB370 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 6E896C121C0DCACA005CB370;
+					};
+				};
+			};
+			buildConfigurationList = 6E896C0E1C0DCACA005CB370 /* Build configuration list for PBXProject "Cape Town Summer Guide 2015" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E896C0A1C0DCACA005CB370;
+			productRefGroup = 6E896C141C0DCACA005CB370 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E896C121C0DCACA005CB370 /* Cape Town Summer Guide 2015 */,
+				6E896C261C0DCACA005CB370 /* Cape Town Summer Guide 2015Tests */,
+				6E896C311C0DCACA005CB370 /* Cape Town Summer Guide 2015UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E896C111C0DCACA005CB370 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E896C4B1C0DCBE5005CB370 /* 4.png in Resources */,
+				6E896C211C0DCACA005CB370 /* LaunchScreen.storyboard in Resources */,
+				6E896C4D1C0DCBE5005CB370 /* 2.png in Resources */,
+				6E896C491C0DCBE5005CB370 /* 5.png in Resources */,
+				6E896C1E1C0DCACA005CB370 /* Assets.xcassets in Resources */,
+				6E896C1C1C0DCACA005CB370 /* Main.storyboard in Resources */,
+				6E896C4C1C0DCBE5005CB370 /* 3.png in Resources */,
+				6E896C4A1C0DCBE5005CB370 /* 1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E896C251C0DCACA005CB370 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E896C301C0DCACA005CB370 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E896C0F1C0DCACA005CB370 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E896C171C0DCACA005CB370 /* AppDelegate.swift in Sources */,
+				6E896C501C0DCC3E005CB370 /* DataForTableView.swift in Sources */,
+				6E896C521C0DCD51005CB370 /* PlacesInCapeTownTableViewController.swift in Sources */,
+				6E896C541C0DD119005CB370 /* PlaceTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E896C231C0DCACA005CB370 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E896C2C1C0DCACA005CB370 /* Cape_Town_Summer_Guide_2015Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E896C2E1C0DCACA005CB370 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E896C371C0DCACA005CB370 /* Cape_Town_Summer_Guide_2015UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E896C291C0DCACA005CB370 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E896C121C0DCACA005CB370 /* Cape Town Summer Guide 2015 */;
+			targetProxy = 6E896C281C0DCACA005CB370 /* PBXContainerItemProxy */;
+		};
+		6E896C341C0DCACA005CB370 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E896C121C0DCACA005CB370 /* Cape Town Summer Guide 2015 */;
+			targetProxy = 6E896C331C0DCACA005CB370 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6E896C1A1C0DCACA005CB370 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E896C1B1C0DCACA005CB370 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E896C1F1C0DCACA005CB370 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E896C201C0DCACA005CB370 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E896C391C0DCACA005CB370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E896C3A1C0DCACA005CB370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E896C3C1C0DCACA005CB370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cape Town Summer Guide 2015/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hugo-Prinsloo.Cape-Town-Summer-Guide-2015";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6E896C3D1C0DCACA005CB370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Cape Town Summer Guide 2015/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hugo-Prinsloo.Cape-Town-Summer-Guide-2015";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6E896C3F1C0DCACA005CB370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cape Town Summer Guide 2015Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hugo-Prinsloo.Cape-Town-Summer-Guide-2015Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cape Town Summer Guide 2015.app/Cape Town Summer Guide 2015";
+			};
+			name = Debug;
+		};
+		6E896C401C0DCACA005CB370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Cape Town Summer Guide 2015Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hugo-Prinsloo.Cape-Town-Summer-Guide-2015Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cape Town Summer Guide 2015.app/Cape Town Summer Guide 2015";
+			};
+			name = Release;
+		};
+		6E896C421C0DCACA005CB370 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cape Town Summer Guide 2015UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hugo-Prinsloo.Cape-Town-Summer-Guide-2015UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Cape Town Summer Guide 2015";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6E896C431C0DCACA005CB370 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Cape Town Summer Guide 2015UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Hugo-Prinsloo.Cape-Town-Summer-Guide-2015UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Cape Town Summer Guide 2015";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E896C0E1C0DCACA005CB370 /* Build configuration list for PBXProject "Cape Town Summer Guide 2015" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E896C391C0DCACA005CB370 /* Debug */,
+				6E896C3A1C0DCACA005CB370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E896C3B1C0DCACA005CB370 /* Build configuration list for PBXNativeTarget "Cape Town Summer Guide 2015" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E896C3C1C0DCACA005CB370 /* Debug */,
+				6E896C3D1C0DCACA005CB370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E896C3E1C0DCACA005CB370 /* Build configuration list for PBXNativeTarget "Cape Town Summer Guide 2015Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E896C3F1C0DCACA005CB370 /* Debug */,
+				6E896C401C0DCACA005CB370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E896C411C0DCACA005CB370 /* Build configuration list for PBXNativeTarget "Cape Town Summer Guide 2015UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E896C421C0DCACA005CB370 /* Debug */,
+				6E896C431C0DCACA005CB370 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E896C0B1C0DCACA005CB370 /* Project object */;
+}
