@@ -10,18 +10,26 @@ import Foundation
 
 class DataForTableView {
     class Entry {
-        let fileName : String
-        let heading : String
+        
+        let sectionImg : String
+        let sectionHeading : String
+
+    
         init(fName: String, heading: String){
-            self.fileName = fName
-            self.heading = heading
+            self.sectionImg = fName
+            self.sectionHeading = heading
         }
     }
         let places = [
-            Entry(fName: "MARKETS.png", heading: "Heading 1"),
-            Entry(fName: "SCUBA.png", heading: "Heading 2"),
-            Entry(fName: "GRAFFITI WALK.png", heading: "Heading 3"),
-            Entry(fName: "SHOP.png", heading: "Heading 4"),
-            Entry(fName: "FEED SQUIRRELS.png", heading: "Heading 5")
-        ]
-    }
+            Entry(fName: "Top2.jpg", heading: "Top things to do"),
+            Entry(fName: "Top.jpg", heading: "Adventurous"),
+            Entry(fName: "Food.jpg", heading: "Hungry"),
+            Entry(fName: "Beach.jpg", heading: "Beach Vibes"),
+            Entry(fName: "Coffee.jpg", heading: "Coffee lover"),
+            Entry(fName: "Nightlife.png", heading: "Night life"),
+            Entry(fName: "Market Blue bird.jpg", heading: "Food & Craft Markets"),
+            Entry(fName: "Shop.jpg", heading: "Shop"),
+            Entry(fName: "Winetasting.jpg", heading: "Wine tours")
+    ]
+}
+

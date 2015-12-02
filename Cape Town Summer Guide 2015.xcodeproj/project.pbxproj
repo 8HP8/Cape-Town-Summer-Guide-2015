@@ -12,10 +12,28 @@
 		6E1C287D1C0EC83500AEF502 /* GRAFFITI WALK.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E1C28781C0EC83500AEF502 /* GRAFFITI WALK.png */; settings = {ASSET_TAGS = (); }; };
 		6E1C287E1C0EC83500AEF502 /* SCUBA.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E1C28791C0EC83500AEF502 /* SCUBA.png */; settings = {ASSET_TAGS = (); }; };
 		6E1C287F1C0EC83500AEF502 /* MARKETS.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E1C287A1C0EC83500AEF502 /* MARKETS.png */; settings = {ASSET_TAGS = (); }; };
-		6E1C28801C0EC83500AEF502 /* SHOP.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E1C287B1C0EC83500AEF502 /* SHOP.png */; settings = {ASSET_TAGS = (); }; };
+		6E1C28801C0EC83500AEF502 /* Shop.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E1C287B1C0EC83500AEF502 /* Shop.png */; settings = {ASSET_TAGS = (); }; };
 		6E1C28841C0ED5C300AEF502 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E1C28831C0ED5C300AEF502 /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
+		6E1C28891C0EF13500AEF502 /* Beach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E1C28851C0EF13500AEF502 /* Beach.jpg */; settings = {ASSET_TAGS = (); }; };
+		6E1C288A1C0EF13500AEF502 /* Market Blue bird.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E1C28861C0EF13500AEF502 /* Market Blue bird.jpg */; settings = {ASSET_TAGS = (); }; };
+		6E1C288B1C0EF13500AEF502 /* Food.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E1C28871C0EF13500AEF502 /* Food.jpg */; settings = {ASSET_TAGS = (); }; };
+		6E1C288C1C0EF13500AEF502 /* Harbour.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E1C28881C0EF13500AEF502 /* Harbour.jpg */; settings = {ASSET_TAGS = (); }; };
+		6E1C28901C0EF55800AEF502 /* Coffee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E1C288F1C0EF55800AEF502 /* Coffee.jpg */; settings = {ASSET_TAGS = (); }; };
+		6E1C28941C0EF63D00AEF502 /* Nightlife.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E1C28931C0EF63D00AEF502 /* Nightlife.png */; settings = {ASSET_TAGS = (); }; };
+		6E1C28961C0EF69300AEF502 /* Shop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E1C28951C0EF69300AEF502 /* Shop.jpg */; settings = {ASSET_TAGS = (); }; };
+		6E1C289F1C0F02DC00AEF502 /* Places2TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C289E1C0F02DC00AEF502 /* Places2TableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		6E1C28A51C0F151800AEF502 /* Winetasting.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E1C28A11C0F151800AEF502 /* Winetasting.jpg */; settings = {ASSET_TAGS = (); }; };
+		6E1C28A61C0F151800AEF502 /* Top2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E1C28A21C0F151800AEF502 /* Top2.jpg */; settings = {ASSET_TAGS = (); }; };
+		6E1C28A71C0F151800AEF502 /* Top.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E1C28A31C0F151800AEF502 /* Top.jpg */; settings = {ASSET_TAGS = (); }; };
+		6E1C28A91C0F1B0500AEF502 /* DataForTableView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C28A81C0F1B0500AEF502 /* DataForTableView2.swift */; settings = {ASSET_TAGS = (); }; };
+		6E1C28AC1C0F1B7800AEF502 /* feedSquirrels.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E1C28AB1C0F1B7800AEF502 /* feedSquirrels.png */; settings = {ASSET_TAGS = (); }; };
+		6E1C28AE1C0F1BF600AEF502 /* ActivityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C28AD1C0F1BF600AEF502 /* ActivityTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		6E1C28B41C0F25DB00AEF502 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E1C28B21C0F25DB00AEF502 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		6E1C28B91C0F2F1A00AEF502 /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C28B81C0F2F1A00AEF502 /* SecondTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		6E1C28BB1C0F394100AEF502 /* topComb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E1C28BA1C0F394100AEF502 /* topComb.jpg */; settings = {ASSET_TAGS = (); }; };
+		6E1C28BD1C0F3AC200AEF502 /* topRed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E1C28BC1C0F3AC200AEF502 /* topRed.jpg */; settings = {ASSET_TAGS = (); }; };
+		6E1C28C11C0F3BC700AEF502 /* activityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C28C01C0F3BC700AEF502 /* activityViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		6E896C171C0DCACA005CB370 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E896C161C0DCACA005CB370 /* AppDelegate.swift */; };
-		6E896C1C1C0DCACA005CB370 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E896C1A1C0DCACA005CB370 /* Main.storyboard */; };
 		6E896C1E1C0DCACA005CB370 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E896C1D1C0DCACA005CB370 /* Assets.xcassets */; };
 		6E896C211C0DCACA005CB370 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E896C1F1C0DCACA005CB370 /* LaunchScreen.storyboard */; };
 		6E896C2C1C0DCACA005CB370 /* Cape_Town_Summer_Guide_2015Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E896C2B1C0DCACA005CB370 /* Cape_Town_Summer_Guide_2015Tests.swift */; };
@@ -48,11 +66,29 @@
 		6E1C28781C0EC83500AEF502 /* GRAFFITI WALK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GRAFFITI WALK.png"; sourceTree = "<group>"; };
 		6E1C28791C0EC83500AEF502 /* SCUBA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SCUBA.png; sourceTree = "<group>"; };
 		6E1C287A1C0EC83500AEF502 /* MARKETS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MARKETS.png; sourceTree = "<group>"; };
-		6E1C287B1C0EC83500AEF502 /* SHOP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SHOP.png; sourceTree = "<group>"; };
+		6E1C287B1C0EC83500AEF502 /* Shop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shop.png; sourceTree = "<group>"; };
 		6E1C28831C0ED5C300AEF502 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6E1C28851C0EF13500AEF502 /* Beach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Beach.jpg; sourceTree = "<group>"; };
+		6E1C28861C0EF13500AEF502 /* Market Blue bird.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Market Blue bird.jpg"; sourceTree = "<group>"; };
+		6E1C28871C0EF13500AEF502 /* Food.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Food.jpg; sourceTree = "<group>"; };
+		6E1C28881C0EF13500AEF502 /* Harbour.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Harbour.jpg; sourceTree = "<group>"; };
+		6E1C288F1C0EF55800AEF502 /* Coffee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Coffee.jpg; sourceTree = "<group>"; };
+		6E1C28931C0EF63D00AEF502 /* Nightlife.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nightlife.png; sourceTree = "<group>"; };
+		6E1C28951C0EF69300AEF502 /* Shop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Shop.jpg; sourceTree = "<group>"; };
+		6E1C289E1C0F02DC00AEF502 /* Places2TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Places2TableViewController.swift; sourceTree = "<group>"; };
+		6E1C28A11C0F151800AEF502 /* Winetasting.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Winetasting.jpg; sourceTree = "<group>"; };
+		6E1C28A21C0F151800AEF502 /* Top2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Top2.jpg; sourceTree = "<group>"; };
+		6E1C28A31C0F151800AEF502 /* Top.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Top.jpg; sourceTree = "<group>"; };
+		6E1C28A81C0F1B0500AEF502 /* DataForTableView2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataForTableView2.swift; sourceTree = "<group>"; };
+		6E1C28AB1C0F1B7800AEF502 /* feedSquirrels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = feedSquirrels.png; sourceTree = "<group>"; };
+		6E1C28AD1C0F1BF600AEF502 /* ActivityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityTableViewCell.swift; sourceTree = "<group>"; };
+		6E1C28B31C0F25DB00AEF502 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E1C28B81C0F2F1A00AEF502 /* SecondTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
+		6E1C28BA1C0F394100AEF502 /* topComb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = topComb.jpg; sourceTree = "<group>"; };
+		6E1C28BC1C0F3AC200AEF502 /* topRed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = topRed.jpg; sourceTree = "<group>"; };
+		6E1C28C01C0F3BC700AEF502 /* activityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = activityViewController.swift; sourceTree = "<group>"; };
 		6E896C131C0DCACA005CB370 /* Cape Town Summer Guide 2015.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cape Town Summer Guide 2015.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E896C161C0DCACA005CB370 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6E896C1B1C0DCACA005CB370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6E896C1D1C0DCACA005CB370 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E896C201C0DCACA005CB370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E896C221C0DCACA005CB370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -96,8 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				6E1C28751C0EC60200AEF502 /* WelcomeViewController.swift */,
-				6E896C511C0DCD51005CB370 /* PlacesInCapeTownTableViewController.swift */,
-				6E896C531C0DD119005CB370 /* PlaceTableViewCell.swift */,
+				6E1C289B1C0F019600AEF502 /* Screen1 */,
+				6E1C28AF1C0F220900AEF502 /* Screen2 */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -106,8 +142,45 @@
 			isa = PBXGroup;
 			children = (
 				6E896C4F1C0DCC3E005CB370 /* DataForTableView.swift */,
+				6E1C28A81C0F1B0500AEF502 /* DataForTableView2.swift */,
 			);
 			name = Data;
+			sourceTree = "<group>";
+		};
+		6E1C289B1C0F019600AEF502 /* Screen1 */ = {
+			isa = PBXGroup;
+			children = (
+				6E896C511C0DCD51005CB370 /* PlacesInCapeTownTableViewController.swift */,
+				6E896C531C0DD119005CB370 /* PlaceTableViewCell.swift */,
+			);
+			name = Screen1;
+			sourceTree = "<group>";
+		};
+		6E1C28AA1C0F1B3900AEF502 /* Activity images */ = {
+			isa = PBXGroup;
+			children = (
+				6E1C28AB1C0F1B7800AEF502 /* feedSquirrels.png */,
+			);
+			name = "Activity images";
+			sourceTree = "<group>";
+		};
+		6E1C28AF1C0F220900AEF502 /* Screen2 */ = {
+			isa = PBXGroup;
+			children = (
+				6E1C28C01C0F3BC700AEF502 /* activityViewController.swift */,
+			);
+			name = Screen2;
+			sourceTree = "<group>";
+		};
+		6E1C28B51C0F264900AEF502 /* old screen */ = {
+			isa = PBXGroup;
+			children = (
+				6E1C28B81C0F2F1A00AEF502 /* SecondTableViewController.swift */,
+				6E1C28AD1C0F1BF600AEF502 /* ActivityTableViewCell.swift */,
+				6E1C289E1C0F02DC00AEF502 /* Places2TableViewController.swift */,
+			);
+			name = "old screen";
+			path = "Cape Town Summer Guide 2015";
 			sourceTree = "<group>";
 		};
 		6E896C0A1C0DCACA005CB370 = {
@@ -116,6 +189,7 @@
 				6E896C151C0DCACA005CB370 /* Cape Town Summer Guide 2015 */,
 				6E896C351C0DCACA005CB370 /* Cape Town Summer Guide 2015UITests */,
 				6E896C141C0DCACA005CB370 /* Products */,
+				6E1C28B51C0F264900AEF502 /* old screen */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,11 +209,12 @@
 				6E896C161C0DCACA005CB370 /* AppDelegate.swift */,
 				6E1C28821C0ECC0000AEF502 /* Data */,
 				6E1C28811C0ECBEE00AEF502 /* Controllers */,
-				6E896C1A1C0DCACA005CB370 /* Main.storyboard */,
 				6E896C1D1C0DCACA005CB370 /* Assets.xcassets */,
+				6E1C28B21C0F25DB00AEF502 /* Main.storyboard */,
 				6E896C1F1C0DCACA005CB370 /* LaunchScreen.storyboard */,
 				6E896C221C0DCACA005CB370 /* Info.plist */,
 				6E896C4E1C0DCC01005CB370 /* Selection images */,
+				6E1C28AA1C0F1B3900AEF502 /* Activity images */,
 				6E896C2A1C0DCACA005CB370 /* Cape Town Summer Guide 2015Tests */,
 				6E1C28831C0ED5C300AEF502 /* Images.xcassets */,
 			);
@@ -167,11 +242,23 @@
 		6E896C4E1C0DCC01005CB370 /* Selection images */ = {
 			isa = PBXGroup;
 			children = (
+				6E1C28BC1C0F3AC200AEF502 /* topRed.jpg */,
+				6E1C28A11C0F151800AEF502 /* Winetasting.jpg */,
+				6E1C28BA1C0F394100AEF502 /* topComb.jpg */,
+				6E1C28A21C0F151800AEF502 /* Top2.jpg */,
+				6E1C28A31C0F151800AEF502 /* Top.jpg */,
+				6E1C288F1C0EF55800AEF502 /* Coffee.jpg */,
+				6E1C28951C0EF69300AEF502 /* Shop.jpg */,
+				6E1C28931C0EF63D00AEF502 /* Nightlife.png */,
+				6E1C28851C0EF13500AEF502 /* Beach.jpg */,
+				6E1C28861C0EF13500AEF502 /* Market Blue bird.jpg */,
+				6E1C28871C0EF13500AEF502 /* Food.jpg */,
+				6E1C28881C0EF13500AEF502 /* Harbour.jpg */,
 				6E1C28771C0EC83500AEF502 /* FEED SQUIRRELS.png */,
 				6E1C28781C0EC83500AEF502 /* GRAFFITI WALK.png */,
 				6E1C28791C0EC83500AEF502 /* SCUBA.png */,
 				6E1C287A1C0EC83500AEF502 /* MARKETS.png */,
-				6E1C287B1C0EC83500AEF502 /* SHOP.png */,
+				6E1C287B1C0EC83500AEF502 /* Shop.png */,
 			);
 			name = "Selection images";
 			sourceTree = "<group>";
@@ -280,14 +367,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E1C28841C0ED5C300AEF502 /* Images.xcassets in Resources */,
+				6E1C28A71C0F151800AEF502 /* Top.jpg in Resources */,
+				6E1C28961C0EF69300AEF502 /* Shop.jpg in Resources */,
 				6E1C287F1C0EC83500AEF502 /* MARKETS.png in Resources */,
 				6E1C287D1C0EC83500AEF502 /* GRAFFITI WALK.png in Resources */,
+				6E1C28891C0EF13500AEF502 /* Beach.jpg in Resources */,
+				6E1C28AC1C0F1B7800AEF502 /* feedSquirrels.png in Resources */,
+				6E1C28A61C0F151800AEF502 /* Top2.jpg in Resources */,
 				6E896C211C0DCACA005CB370 /* LaunchScreen.storyboard in Resources */,
 				6E896C1E1C0DCACA005CB370 /* Assets.xcassets in Resources */,
-				6E896C1C1C0DCACA005CB370 /* Main.storyboard in Resources */,
-				6E1C28801C0EC83500AEF502 /* SHOP.png in Resources */,
+				6E1C28801C0EC83500AEF502 /* Shop.png in Resources */,
+				6E1C28B41C0F25DB00AEF502 /* Main.storyboard in Resources */,
 				6E1C287E1C0EC83500AEF502 /* SCUBA.png in Resources */,
+				6E1C28941C0EF63D00AEF502 /* Nightlife.png in Resources */,
+				6E1C28A51C0F151800AEF502 /* Winetasting.jpg in Resources */,
+				6E1C28BD1C0F3AC200AEF502 /* topRed.jpg in Resources */,
+				6E1C28BB1C0F394100AEF502 /* topComb.jpg in Resources */,
+				6E1C28901C0EF55800AEF502 /* Coffee.jpg in Resources */,
 				6E1C287C1C0EC83500AEF502 /* FEED SQUIRRELS.png in Resources */,
+				6E1C288C1C0EF13500AEF502 /* Harbour.jpg in Resources */,
+				6E1C288A1C0EF13500AEF502 /* Market Blue bird.jpg in Resources */,
+				6E1C288B1C0EF13500AEF502 /* Food.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,8 +415,13 @@
 				6E896C171C0DCACA005CB370 /* AppDelegate.swift in Sources */,
 				6E1C28761C0EC60200AEF502 /* WelcomeViewController.swift in Sources */,
 				6E896C501C0DCC3E005CB370 /* DataForTableView.swift in Sources */,
+				6E1C28C11C0F3BC700AEF502 /* activityViewController.swift in Sources */,
 				6E896C521C0DCD51005CB370 /* PlacesInCapeTownTableViewController.swift in Sources */,
+				6E1C289F1C0F02DC00AEF502 /* Places2TableViewController.swift in Sources */,
 				6E896C541C0DD119005CB370 /* PlaceTableViewCell.swift in Sources */,
+				6E1C28AE1C0F1BF600AEF502 /* ActivityTableViewCell.swift in Sources */,
+				6E1C28B91C0F2F1A00AEF502 /* SecondTableViewController.swift in Sources */,
+				6E1C28A91C0F1B0500AEF502 /* DataForTableView2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,10 +457,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6E896C1A1C0DCACA005CB370 /* Main.storyboard */ = {
+		6E1C28B21C0F25DB00AEF502 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6E896C1B1C0DCACA005CB370 /* Base */,
+				6E1C28B31C0F25DB00AEF502 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

@@ -10,9 +10,6 @@ import UIKit
 
 class PlaceTableViewCell: UITableViewCell {
 
-//    @IBOutlet weak var backgroundImage: UIImageView!
-//    @IBOutlet weak var placeLabel: UILabel!
-//   
     @IBOutlet weak var backgroundImage: UIImageView!
     @IBOutlet weak var placeLabel: UILabel!
     

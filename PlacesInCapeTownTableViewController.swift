@@ -21,11 +21,11 @@ class PlacesInCapeTownTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    override func viewWillAppear(animated: Bool) {
+        self.navigationController?.navigationBarHidden = false
     }
+
 
     // MARK: - Table view data source
 
@@ -43,15 +43,29 @@ class PlacesInCapeTownTableViewController: UITableViewController {
          
         
         let entry = data.places[indexPath.row]
-        let image = UIImage(named: entry.fileName)
+        let image = UIImage(named: entry.sectionImg)
         
         cell.backgroundImage.image = image
-        cell.placeLabel.text = entry.heading
+        cell.placeLabel.text = entry.sectionHeading
         
 
         
         return cell
     }
-    
+//    
+//    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+//        
+//        let userSelection = data.places[indexPath.row]
+//        
+//        let places2TVC: Screen2TableViewController = self.storyboard?.instantiateViewControllerWithIdentifier("Screen2TableViewController") as! Screen2TableViewController
+//        
+//        
+//        
+//        self.presentViewController(places2TVC, animated: true, completion: nil)
+//        
+//
+//    }
 
+    
+    
   }
