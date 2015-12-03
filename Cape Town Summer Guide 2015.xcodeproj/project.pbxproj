@@ -33,6 +33,11 @@
 		6E1C28BB1C0F394100AEF502 /* topComb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E1C28BA1C0F394100AEF502 /* topComb.jpg */; settings = {ASSET_TAGS = (); }; };
 		6E1C28BD1C0F3AC200AEF502 /* topRed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E1C28BC1C0F3AC200AEF502 /* topRed.jpg */; settings = {ASSET_TAGS = (); }; };
 		6E1C28C11C0F3BC700AEF502 /* activityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1C28C01C0F3BC700AEF502 /* activityViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		6E44DE041C108A4F00F29FBB /* selectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E44DE031C108A4F00F29FBB /* selectionTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		6E44DE061C108AA300F29FBB /* secondTableInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E44DE051C108AA300F29FBB /* secondTableInfo.swift */; settings = {ASSET_TAGS = (); }; };
+		6E44DE081C108B0A00F29FBB /* selectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E44DE071C108B0A00F29FBB /* selectionTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		6E44DE0A1C108B8E00F29FBB /* activityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E44DE091C108B8E00F29FBB /* activityTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		6E44DE0C1C108C1F00F29FBB /* activitiesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E44DE0B1C108C1F00F29FBB /* activitiesTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 		6E896C171C0DCACA005CB370 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E896C161C0DCACA005CB370 /* AppDelegate.swift */; };
 		6E896C1E1C0DCACA005CB370 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E896C1D1C0DCACA005CB370 /* Assets.xcassets */; };
 		6E896C211C0DCACA005CB370 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E896C1F1C0DCACA005CB370 /* LaunchScreen.storyboard */; };
@@ -41,6 +46,8 @@
 		6E896C501C0DCC3E005CB370 /* DataForTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E896C4F1C0DCC3E005CB370 /* DataForTableView.swift */; settings = {ASSET_TAGS = (); }; };
 		6E896C521C0DCD51005CB370 /* PlacesInCapeTownTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E896C511C0DCD51005CB370 /* PlacesInCapeTownTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		6E896C541C0DD119005CB370 /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E896C531C0DD119005CB370 /* PlaceTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		6EA2ABAF1C10739B00D127CC /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA2ABAE1C10739B00D127CC /* testViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		6ECD1EDB1C10513200670A7C /* tableInfo1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECD1EDA1C10513200670A7C /* tableInfo1.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +94,11 @@
 		6E1C28BA1C0F394100AEF502 /* topComb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = topComb.jpg; sourceTree = "<group>"; };
 		6E1C28BC1C0F3AC200AEF502 /* topRed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = topRed.jpg; sourceTree = "<group>"; };
 		6E1C28C01C0F3BC700AEF502 /* activityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = activityViewController.swift; sourceTree = "<group>"; };
+		6E44DE031C108A4F00F29FBB /* selectionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = selectionTableViewController.swift; sourceTree = "<group>"; };
+		6E44DE051C108AA300F29FBB /* secondTableInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondTableInfo.swift; sourceTree = "<group>"; };
+		6E44DE071C108B0A00F29FBB /* selectionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = selectionTableViewCell.swift; sourceTree = "<group>"; };
+		6E44DE091C108B8E00F29FBB /* activityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = activityTableViewController.swift; sourceTree = "<group>"; };
+		6E44DE0B1C108C1F00F29FBB /* activitiesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = activitiesTableViewCell.swift; sourceTree = "<group>"; };
 		6E896C131C0DCACA005CB370 /* Cape Town Summer Guide 2015.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cape Town Summer Guide 2015.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E896C161C0DCACA005CB370 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E896C1D1C0DCACA005CB370 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,6 +113,8 @@
 		6E896C4F1C0DCC3E005CB370 /* DataForTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataForTableView.swift; sourceTree = "<group>"; };
 		6E896C511C0DCD51005CB370 /* PlacesInCapeTownTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlacesInCapeTownTableViewController.swift; path = ../PlacesInCapeTownTableViewController.swift; sourceTree = "<group>"; };
 		6E896C531C0DD119005CB370 /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCell.swift; sourceTree = "<group>"; };
+		6EA2ABAE1C10739B00D127CC /* testViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
+		6ECD1EDA1C10513200670A7C /* tableInfo1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tableInfo1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,8 +155,7 @@
 		6E1C28821C0ECC0000AEF502 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				6E896C4F1C0DCC3E005CB370 /* DataForTableView.swift */,
-				6E1C28A81C0F1B0500AEF502 /* DataForTableView2.swift */,
+				6E44DE051C108AA300F29FBB /* secondTableInfo.swift */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -150,8 +163,10 @@
 		6E1C289B1C0F019600AEF502 /* Screen1 */ = {
 			isa = PBXGroup;
 			children = (
-				6E896C511C0DCD51005CB370 /* PlacesInCapeTownTableViewController.swift */,
-				6E896C531C0DD119005CB370 /* PlaceTableViewCell.swift */,
+				6E44DE031C108A4F00F29FBB /* selectionTableViewController.swift */,
+				6E44DE071C108B0A00F29FBB /* selectionTableViewCell.swift */,
+				6E44DE091C108B8E00F29FBB /* activityTableViewController.swift */,
+				6E44DE0B1C108C1F00F29FBB /* activitiesTableViewCell.swift */,
 			);
 			name = Screen1;
 			sourceTree = "<group>";
@@ -167,7 +182,6 @@
 		6E1C28AF1C0F220900AEF502 /* Screen2 */ = {
 			isa = PBXGroup;
 			children = (
-				6E1C28C01C0F3BC700AEF502 /* activityViewController.swift */,
 			);
 			name = Screen2;
 			sourceTree = "<group>";
@@ -175,6 +189,12 @@
 		6E1C28B51C0F264900AEF502 /* old screen */ = {
 			isa = PBXGroup;
 			children = (
+				6E896C531C0DD119005CB370 /* PlaceTableViewCell.swift */,
+				6ECD1EDA1C10513200670A7C /* tableInfo1.swift */,
+				6E1C28C01C0F3BC700AEF502 /* activityViewController.swift */,
+				6E896C511C0DCD51005CB370 /* PlacesInCapeTownTableViewController.swift */,
+				6E896C4F1C0DCC3E005CB370 /* DataForTableView.swift */,
+				6E1C28A81C0F1B0500AEF502 /* DataForTableView2.swift */,
 				6E1C28B81C0F2F1A00AEF502 /* SecondTableViewController.swift */,
 				6E1C28AD1C0F1BF600AEF502 /* ActivityTableViewCell.swift */,
 				6E1C289E1C0F02DC00AEF502 /* Places2TableViewController.swift */,
@@ -211,6 +231,7 @@
 				6E1C28811C0ECBEE00AEF502 /* Controllers */,
 				6E896C1D1C0DCACA005CB370 /* Assets.xcassets */,
 				6E1C28B21C0F25DB00AEF502 /* Main.storyboard */,
+				6EA2ABAE1C10739B00D127CC /* testViewController.swift */,
 				6E896C1F1C0DCACA005CB370 /* LaunchScreen.storyboard */,
 				6E896C221C0DCACA005CB370 /* Info.plist */,
 				6E896C4E1C0DCC01005CB370 /* Selection images */,
@@ -412,15 +433,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E44DE0A1C108B8E00F29FBB /* activityTableViewController.swift in Sources */,
 				6E896C171C0DCACA005CB370 /* AppDelegate.swift in Sources */,
+				6E44DE081C108B0A00F29FBB /* selectionTableViewCell.swift in Sources */,
 				6E1C28761C0EC60200AEF502 /* WelcomeViewController.swift in Sources */,
 				6E896C501C0DCC3E005CB370 /* DataForTableView.swift in Sources */,
 				6E1C28C11C0F3BC700AEF502 /* activityViewController.swift in Sources */,
+				6E44DE041C108A4F00F29FBB /* selectionTableViewController.swift in Sources */,
 				6E896C521C0DCD51005CB370 /* PlacesInCapeTownTableViewController.swift in Sources */,
 				6E1C289F1C0F02DC00AEF502 /* Places2TableViewController.swift in Sources */,
+				6EA2ABAF1C10739B00D127CC /* testViewController.swift in Sources */,
 				6E896C541C0DD119005CB370 /* PlaceTableViewCell.swift in Sources */,
+				6E44DE0C1C108C1F00F29FBB /* activitiesTableViewCell.swift in Sources */,
 				6E1C28AE1C0F1BF600AEF502 /* ActivityTableViewCell.swift in Sources */,
+				6E44DE061C108AA300F29FBB /* secondTableInfo.swift in Sources */,
 				6E1C28B91C0F2F1A00AEF502 /* SecondTableViewController.swift in Sources */,
+				6ECD1EDB1C10513200670A7C /* tableInfo1.swift in Sources */,
 				6E1C28A91C0F1B0500AEF502 /* DataForTableView2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
