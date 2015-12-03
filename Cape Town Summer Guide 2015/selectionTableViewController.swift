@@ -16,10 +16,18 @@ class selectionTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        firstArray = ["Beach.jpg","Harbour.jpg","Food.jpg"]
-        secondArray = [ secondTableInfo(secondTitle: ["Beach.jpg","Beach.jpg","Beach.jpg","Beach.jpg"], pic: ""),
-                        secondTableInfo(secondTitle: ["Harbour.jpg","Harbour.jpg","Harbour.jpg","Harbour.jpg"], pic: ""),
-                        secondTableInfo(secondTitle: ["Food.jpg","Food.jpg","Food.jpg","Food.jpg"], pic: "")]
+        firstArray = ["Top2.jpg","Top.jpg","Food.jpg","Beach.jpg","Coffee.jpg","Nightlife.png","Market Blue bird.jpg","Winetasting.jpg","Shop.jpg"]
+        secondArray = [ secondTableInfo(secondTitle: ["Top2.jpg","Top2.jpg","Top2.jpg","Top2.jpg"], pic: ""),
+                        secondTableInfo(secondTitle: ["Top.jpg","Top.jpg","Top.jpg","Top.jpg"], pic: ""),
+                        secondTableInfo(secondTitle: ["Food.jpg","Food.jpg","Food.jpg","Food.jpg"], pic: ""),
+                        secondTableInfo(secondTitle: ["Beach.jpg","Beach.jpg","Beach.jpg","Beach.jpg"], pic: ""),
+                        secondTableInfo(secondTitle: ["Coffee.jpg","Coffee.jpg","Coffee.jpg","Coffee.jpg"], pic: ""),
+                        secondTableInfo(secondTitle: ["Nightlife.png","Nightlife.png","Nightlife.png","Nightlife.png"], pic: ""),
+                        secondTableInfo(secondTitle: ["Market Blue bird.jpg","Market Blue bird.jpg","Market Blue bird.jpg","Market Blue bird.jpg"], pic: ""),
+                        secondTableInfo(secondTitle: ["Winetasting.jpg","Winetasting.jpg","Winetasting.jpg","Winetasting.jpg"], pic: ""),
+                        secondTableInfo(secondTitle: ["Shop.jpg","Shop.jpg","Shop.jpg","Shop.jpg"], pic: "")
+
+]
         
 
     }

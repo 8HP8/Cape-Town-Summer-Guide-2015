@@ -48,7 +48,7 @@ class activityTableViewController: UITableViewController {
         let image = UIImage(named: entry)
         
         
-        cell.secondLabel?.text = secondArray[indexPath.row]
+        cell.secondLabel?.text = ""
         
         cell.secondImage.image = image
         
