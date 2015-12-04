@@ -11,23 +11,51 @@ import UIKit
 class selectionTableViewController: UITableViewController {
 
     var firstArray = [String]()
+    var firstHeadingLabel = [String]()
     var secondArray = [secondTableInfo]()
+    var toPrint = [String]()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         firstArray = ["Top2.jpg","Top.jpg","Food.jpg","Beach.jpg","Coffee.jpg","Nightlife.png","Market Blue bird.jpg","Winetasting.jpg","Shop.jpg"]
-        secondArray = [ secondTableInfo(secondTitle: ["Top2.jpg","Top2.jpg","Top2.jpg","Top2.jpg"], pic: ""),
-                        secondTableInfo(secondTitle: ["Top.jpg","Top.jpg","Top.jpg","Top.jpg"], pic: ""),
-                        secondTableInfo(secondTitle: ["Food.jpg","Food.jpg","Food.jpg","Food.jpg"], pic: ""),
-                        secondTableInfo(secondTitle: ["Beach.jpg","Beach.jpg","Beach.jpg","Beach.jpg"], pic: ""),
-                        secondTableInfo(secondTitle: ["Coffee.jpg","Coffee.jpg","Coffee.jpg","Coffee.jpg"], pic: ""),
-                        secondTableInfo(secondTitle: ["Nightlife.png","Nightlife.png","Nightlife.png","Nightlife.png"], pic: ""),
-                        secondTableInfo(secondTitle: ["Market Blue bird.jpg","Market Blue bird.jpg","Market Blue bird.jpg","Market Blue bird.jpg"], pic: ""),
-                        secondTableInfo(secondTitle: ["Winetasting.jpg","Winetasting.jpg","Winetasting.jpg","Winetasting.jpg"], pic: ""),
-                        secondTableInfo(secondTitle: ["Shop.jpg","Shop.jpg","Shop.jpg","Shop.jpg"], pic: "")
+        firstHeadingLabel = ["Top thing to do","Adventurous","Hungry","Beach bum","Coffee lover","Night life","Markets","Wine Tasting","Shop",]
+        
+        
+        secondArray = [
+            //Top things to do
+            secondTableInfo(secondTitle: ["Top2.jpg","Top2.jpg","Top2.jpg","Top2.jpg"], heading: ["Top 1","Top 2","Top 3","Top 4"]),
+            
+            //ADVENTUROUS
+            secondTableInfo(secondTitle: ["scuba.jpg","Rhodes.jpg","tokaiForest.jpg","HermanusBeach.jpg"], heading: ["Go Scuba diving","Explore Rhodes Memorial","Tokai Forest run","Hermanus coastal rocks"]),
+            
+            //HUNGRY
+            secondTableInfo(secondTitle: ["Food.jpg","Food.jpg","Food.jpg","Food.jpg"], heading: ["","","",""]),
+            
+            //BEACH VIBES
+            secondTableInfo(secondTitle: ["Beach.jpg","Beach.jpg","Beach.jpg","Beach.jpg"], heading: ["","","",""]),
+            
+            //COFFEE LOVER
+            secondTableInfo(secondTitle: ["Coffee.jpg","Coffee.jpg","Coffee.jpg","Coffee.jpg"], heading: ["","","",""]),
+            
+            //NIGHTLIFE
+            secondTableInfo(secondTitle: ["Nightlife.png","Nightlife.png","Nightlife.png","Nightlife.png"], heading: ["","","",""]),
+            
+            //MARKETS
+            secondTableInfo(secondTitle: ["Market Blue bird.jpg","Market Blue bird.jpg","Market Blue bird.jpg","Market Blue bird.jpg"],heading: ["","","",""]),
+            
+            //WINETASTING
+            secondTableInfo(secondTitle: ["Winetasting.jpg","Winetasting.jpg","Winetasting.jpg","Winetasting.jpg"], heading: ["","","",""]),
+            
+            //SHOP
+            secondTableInfo(secondTitle: ["Shop.jpg","Shop.jpg","Shop.jpg","Shop.jpg"], heading: ["","","",""])
 
 ]
+        
+//        toPrint = [secondArray]
+        
+        print("")
         
 
     }
@@ -59,13 +87,18 @@ class selectionTableViewController: UITableViewController {
         
         
         let entry = firstArray[indexPath.row]
+        let headings = firstHeadingLabel[indexPath.row]
         let image = UIImage(named: entry)
         
-        cell.firstTLabel.text = entry
+        cell.firstTLabel.text = headings
         cell.firstImage.image = image
         
         
         return cell
+    }
+    
+    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return 200.00
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
@@ -78,6 +111,7 @@ class selectionTableViewController: UITableViewController {
         
         secondTableArrayTwo = secondArray[indexPath.row]
         DestinationViewController.secondArray = secondTableArrayTwo.secondTitle
+        DestinationViewController.secondHeaderLabel = secondTableArrayTwo.heading
         
     }
     /*
