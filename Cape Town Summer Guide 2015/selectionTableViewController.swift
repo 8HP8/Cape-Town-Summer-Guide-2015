@@ -14,7 +14,8 @@ class selectionTableViewController: UITableViewController {
     var firstHeadingLabel = [String]()
     var secondArray = [secondTableInfo]()
     var toPrint = [String]()
-    
+    var barBtnColour = UIColor.blackColor()
+    var navBarBtnCustomColour = UIColor(red: 228.0, green: 52.0, blue: 80.0, alpha: 01.0)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -62,6 +63,9 @@ class selectionTableViewController: UITableViewController {
     
     override func viewWillAppear(animated: Bool) {
         self.navigationController?.navigationBarHidden = false
+        self.navigationController?.navigationBar.tintColor = UIColor.blackColor()
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

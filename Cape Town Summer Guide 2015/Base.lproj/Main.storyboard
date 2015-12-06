@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="R0Z-hH-DBN">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="cXO-IN-Hz8">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Welcome View Controller-->
@@ -186,9 +187,9 @@
                                             <animations/>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hP8-aA-qkR">
-                                            <rect key="frame" x="275" y="87" width="51" height="25"/>
+                                            <rect key="frame" x="260" y="81" width="80" height="38"/>
                                             <animations/>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="19"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                             <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -222,6 +223,83 @@
             </objects>
             <point key="canvasLocation" x="3030" y="155"/>
         </scene>
+        <!--Detailed New Table View Controller-->
+        <scene sceneID="oOc-wg-oUs">
+            <objects>
+                <tableViewController id="cXO-IN-Hz8" customClass="detailedNewTableViewController" customModule="Cape_Town_Summer_Guide_2015" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="106" sectionHeaderHeight="28" sectionFooterHeight="28" id="dtO-yU-dAd">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <imageView key="tableHeaderView" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Beach.jpg" id="qCN-Kc-tWz">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="300"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <animations/>
+                        </imageView>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="detailedCellNew" rowHeight="106" id="Tag-0c-75g" customClass="detailedNewTableViewCell" customModule="Cape_Town_Summer_Guide_2015" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="328" width="600" height="106"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Tag-0c-75g" id="hCK-ry-q5E">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="105"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Clifton" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0KQ-3O-RE9">
+                                            <rect key="frame" x="8" y="8" width="79" height="30"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="25"/>
+                                            <color key="textColor" red="0.89411764709999997" green="0.20392156859999999" blue="0.31372549020000001" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nuY-ph-tR3">
+                                            <rect key="frame" x="8" y="46" width="584" height="12"/>
+                                            <animations/>
+                                            <mutableString key="text">Home to Millionaire’s Row, fashionable Clifton is known as Cape Town’s St Tropez, and its four beautiful beaches attract holidaymakers in their droves.
+
+Yachts floating on a turquoise ocean, white, sandy beaches and beautiful bodies all make up Clifton’s reputation as the French Riviera of South Africa.
+
+The gorgeous sea-facing apartments of Clifton are said to be some of the most sought-after real estate in the world. This snazzy little suburb offers spectacular ocean views and is close to not one, but four spectacular swimming beaches.
+
+All the beaches are safe for swimming, although be warned – the Atlantic waters are chilly, no matter what time of year you visit! A popular spot for surfing, Clifton can be accessed by steep walkways leading down to the various beaches.
+
+Granite outcrops divide the beaches into four quite distinct areas, namely First Beach, Second Beach, Third Beach and Fourth Beach.
+
+First Beach is a favourite among the surfers and volleyball players – it’s a veritable playground for the muscled among us. Second and Third beaches are family-friendly and popular with the 20-somethings as well as the gay crowd. Fourth Beach is the perfect family beach, and has excellent facilities including public toilets, changing rooms and places to buy cold drinks and snacks. Umbrellas and deck chairs are also available for rent. Blue Flag status has been awarded to Fourth Beach for adhering to stringent international environmental standards.
+
+Lifeguards are on duty during peak season and on the weekends, and swimming is relatively safe – although one should never underestimate the undertow.
+
+During the height of summer, finding parking along the M6 can be a nightmare so it’s a good idea to take the shuttle from your hotel, or make use of the regular buses that run along this stretch of coastline and service both Clifton and Hout Bay from the city centre.
+
+</mutableString>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <animations/>
+                                    <constraints>
+                                        <constraint firstItem="nuY-ph-tR3" firstAttribute="top" secondItem="0KQ-3O-RE9" secondAttribute="bottom" constant="8" id="BrM-Ps-RiP"/>
+                                        <constraint firstAttribute="leadingMargin" secondItem="nuY-ph-tR3" secondAttribute="leading" id="JbX-Rt-iJc"/>
+                                        <constraint firstAttribute="topMargin" secondItem="0KQ-3O-RE9" secondAttribute="top" id="KvC-PK-H9G"/>
+                                        <constraint firstAttribute="leadingMargin" secondItem="0KQ-3O-RE9" secondAttribute="leading" id="YKi-kt-kgq"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="nuY-ph-tR3" secondAttribute="trailing" id="d8f-Hx-MrI"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="nuY-ph-tR3" secondAttribute="bottom" constant="39" id="zcU-9l-fSy"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <animations/>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="cXO-IN-Hz8" id="5r5-Gv-7hu"/>
+                            <outlet property="delegate" destination="cXO-IN-Hz8" id="AVK-Tk-Z6d"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OAr-Mt-5Ys" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4062" y="170"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="NEk-GO-LsB">
             <objects>
@@ -231,6 +309,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <animations/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -243,6 +324,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Beach.jpg" width="3264" height="2448"/>
         <image name="Cape-Town Logo" width="436" height="141"/>
         <image name="ExploreBackground" width="1200" height="1600"/>
         <image name="explore" width="299" height="147"/>
