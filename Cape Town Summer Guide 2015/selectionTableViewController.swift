@@ -29,7 +29,7 @@ class selectionTableViewController: UITableViewController {
             secondTableInfo(secondTitle: ["Top2.jpg","Top2.jpg","Top2.jpg","Top2.jpg"], heading: ["Top 1","Top 2","Top 3","Top 4"]),
             
             //ADVENTUROUS
-            secondTableInfo(secondTitle: ["scuba.jpg","Rhodes.jpg","tokaiForest.jpg","HermanusBeach.jpg"], heading: ["Go Scuba diving","Explore Rhodes Memorial","Tokai Forest run","Hermanus coastal rocks"]),
+            secondTableInfo(secondTitle: ["scuba.jpg","kalkBayHarbour.JPG","tokaiForest.jpg","HermanusBeach.jpg"], heading: ["Go Scuba diving","Explore harbours","Tokai Forest run","Hermanus coastal rocks"]),
             
             //HUNGRY
             secondTableInfo(secondTitle: ["Food.jpg","Food.jpg","Food.jpg","Food.jpg"], heading: ["","","",""]),
