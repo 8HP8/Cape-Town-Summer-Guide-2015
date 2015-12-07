@@ -23,6 +23,8 @@ class selectionTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBarHidden = false
+
 
 
         firstArray = ["Top2.jpg","Top.jpg","Food.jpg","Beach.jpg","Coffee.jpg","Nightlife.png","Market Blue bird.jpg","Winetasting.jpg","Shop.jpg"]
@@ -120,6 +122,7 @@ class selectionTableViewController: UITableViewController {
     }
     
 
+    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! selectionTableViewCell
         

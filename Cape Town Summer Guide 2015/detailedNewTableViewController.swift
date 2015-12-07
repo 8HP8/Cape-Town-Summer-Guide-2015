@@ -25,7 +25,6 @@ class detailedNewTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
         tableView.rowHeight = UITableViewAutomaticDimension
         headerView = tableView.tableHeaderView
@@ -55,9 +54,7 @@ class detailedNewTableViewController: UITableViewController {
     override func viewWillAppear(animated: Bool) {
         self.navigationController?.navigationBarHidden = true
         
-       
             detailImageUIImage.image = UIImage(named: thirdNewImages)
-        
         
     }
     override func prefersStatusBarHidden() -> Bool {
@@ -127,6 +124,7 @@ class detailedNewTableViewController: UITableViewController {
     
     func handleSwipe(sender: UIGestureRecognizer){
         navigationController?.popViewControllerAnimated(true)
+        navigationController?.navigationBarHidden = false
     
     }
 }
