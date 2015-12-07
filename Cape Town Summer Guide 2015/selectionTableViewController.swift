@@ -31,50 +31,50 @@ class selectionTableViewController: UITableViewController {
         
         secondArray = [
             //Top things to do
-            secondTableInfo(secondTitle: ["Top2.jpg","Top2.jpg","Top2.jpg","Top2.jpg"], heading: ["Top 1","Top 2","Top 3","Top 4"]),
+            secondTableInfo(secondImage: ["Top2.jpg","Top2.jpg","Top2.jpg","Top2.jpg"], heading: ["Top 1","Top 2","Top 3","Top 4"]),
             
             //ADVENTUROUS
-            secondTableInfo(secondTitle: ["scuba.jpg","kalkBayHarbour.JPG","tokaiForest.jpg","HermanusBeach.jpg"], heading: ["Go Scuba diving","Explore harbours","Tokai Forest run","Hermanus coastal rocks"]),
+            secondTableInfo(secondImage: ["scuba.jpg","kalkBayHarbour.JPG","tokaiForest.jpg","HermanusBeach.jpg"], heading: ["Go Scuba diving","Explore harbours","Tokai Forest run","Hermanus coastal rocks"]),
 
             
             //HUNGRY
-            secondTableInfo(secondTitle: ["Food.jpg","Food.jpg","Food.jpg","Food.jpg"], heading: ["","","",""]),
+            secondTableInfo(secondImage: ["Food.jpg","Food.jpg","Food.jpg","Food.jpg"], heading: ["","","",""]),
             
            
             
             
             //BEACH VIBES
-            secondTableInfo(secondTitle: ["Beach.jpg","Beach.jpg","Beach.jpg","Beach.jpg"], heading: ["","","",""]),
+            secondTableInfo(secondImage: ["Beach.jpg","Beach.jpg","Beach.jpg","Beach.jpg"], heading: ["","","",""]),
             
           
             
             
             //COFFEE LOVER
-            secondTableInfo(secondTitle: ["Coffee.jpg","Coffee.jpg","Coffee.jpg","Coffee.jpg"], heading: ["","","",""]),
+            secondTableInfo(secondImage: ["Coffee.jpg","Coffee.jpg","Coffee.jpg","Coffee.jpg"], heading: ["","","",""]),
             
           
             
             
             //NIGHTLIFE
-            secondTableInfo(secondTitle: ["Nightlife.png","Nightlife.png","Nightlife.png","Nightlife.png"], heading: ["","","",""]),
+            secondTableInfo(secondImage: ["Nightlife.png","Nightlife.png","Nightlife.png","Nightlife.png"], heading: ["","","",""]),
             
          
             
             
             //MARKETS
-            secondTableInfo(secondTitle: ["Market Blue bird.jpg","Market Blue bird.jpg","Market Blue bird.jpg","Market Blue bird.jpg"],heading: ["","","",""]),
+            secondTableInfo(secondImage: ["Market Blue bird.jpg","Market Blue bird.jpg","Market Blue bird.jpg","Market Blue bird.jpg"],heading: ["","","",""]),
             
         
             
             
             //WINETASTING
-            secondTableInfo(secondTitle: ["Winetasting.jpg","Winetasting.jpg","Winetasting.jpg","Winetasting.jpg"], heading: ["","","",""]),
+            secondTableInfo(secondImage: ["Winetasting.jpg","Winetasting.jpg","Winetasting.jpg","Winetasting.jpg"], heading: ["","","",""]),
             
        
             
             
             //SHOP
-            secondTableInfo(secondTitle: ["Shop.jpg","Shop.jpg","Shop.jpg","Shop.jpg"], heading: ["","","",""])
+            secondTableInfo(secondImage: ["Shop.jpg","Shop.jpg","Shop.jpg","Shop.jpg"], heading: ["","","",""])
 
 ]
         
@@ -149,13 +149,15 @@ class selectionTableViewController: UITableViewController {
         var secondTableArrayTwo : secondTableInfo
         secondTableArrayTwo = secondArray[indexPath.row]
         
-        DestinationViewController.secondArray = secondTableArrayTwo.secondTitle
+        DestinationViewController.secondArray = secondTableArrayTwo.secondImage
         DestinationViewController.secondHeaderLabel = secondTableArrayTwo.heading
         
         var theNewThird : thirdViewandSoOn
         theNewThird = thirdArray[indexPath.row]
         
         DestinationViewController.secondAnswerArray = theNewThird.detailPageHeading
+        DestinationViewController.ThirdImageFinal = theNewThird.detailPageImage
+        
 
       
     }

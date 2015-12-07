@@ -13,6 +13,9 @@ class activityTableViewController: UITableViewController {
     var secondArray = [String]()
     var secondHeaderLabel = [String]()
     var secondAnswerArray = [String]()
+    var ThirdImageFinal = [String]()
+
+
     
 //    var thirdArray = [secondTableInfo]()
 
@@ -51,9 +54,8 @@ class activityTableViewController: UITableViewController {
         let image = UIImage(named: entry)
         
         
-        
+
         cell.secondLabel?.text = secondHeaderLabel[indexPath.row]
-        
         cell.secondImage.image = image
         
         return cell
@@ -69,8 +71,14 @@ class activityTableViewController: UITableViewController {
         
         let indexPath : NSIndexPath = self.tableView.indexPathForSelectedRow!
         let DestinationViewController = segue.destinationViewController as! detailedNewTableViewController
+        
+
+        
         DestinationViewController.thirdLabelText = secondAnswerArray[indexPath.row]
         DestinationViewController.thirdInfoText = secondAnswerArray[indexPath.row]
+        DestinationViewController.thirdNewImages = ThirdImageFinal[indexPath.row]
+        
+        
         
 //        var detailArray : secondTableInfo
 //        

@@ -21,7 +21,7 @@ class firstTableInfo{
 
 struct secondTableInfo {
     
-    var secondTitle : [String]
+    var secondImage : [String]
     var heading : [String]
 }
 
