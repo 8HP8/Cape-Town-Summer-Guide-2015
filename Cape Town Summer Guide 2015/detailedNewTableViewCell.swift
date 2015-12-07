@@ -10,6 +10,10 @@ import UIKit
 
 class detailedNewTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var detailPageHeadingLabel: UILabel!
+    @IBOutlet weak var detailPageInfoTextLabel: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

@@ -25,6 +25,12 @@ struct secondTableInfo {
     var heading : [String]
 }
 
+struct thirdViewandSoOn {
+    var detailPageHeading = [String]()
+    var detailPageImage = [String]()
+    var detailPageInfo = [String]()
+    }
+
 
 
 

@@ -10,6 +10,16 @@ import UIKit
 
 class detailedNewTableViewController: UITableViewController {
 
+    var thirdLabelText = String()
+    var thirdInfoText = String()
+        
+//    var thirdArray = [String]()
+//    var detailedImage = [String]()
+//    var detailedTitle = [String]()
+//    var detailedText = [String]()
+//    
+    @IBOutlet weak var detailImageUIImage: UIImageView!
+    
     private let tableTopImageHeight: CGFloat = 400.0
     private let tableTopImageCutOff: CGFloat = 80.0
     var headerView :UIView!
@@ -44,6 +54,7 @@ class detailedNewTableViewController: UITableViewController {
     
     override func viewWillAppear(animated: Bool) {
         self.navigationController?.navigationBarHidden = true
+        
     }
     override func prefersStatusBarHidden() -> Bool {
         return true
@@ -82,7 +93,11 @@ class detailedNewTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("detailedCellNew", forIndexPath: indexPath) as! detailedNewTableViewCell
 
-        // Configure the cell...
+
+        cell.detailPageHeadingLabel.text = thirdLabelText
+        cell.detailPageInfoTextLabel.text = thirdInfoText
+        
+        
         
 
         return cell
@@ -105,11 +120,7 @@ class detailedNewTableViewController: UITableViewController {
         path.addLineToPoint(CGPoint(x: 0, y: headerRect.height-tableTopImageCutOff))
         headerMaskLayer?.path = path.CGPath
         
-        
-        
-        
-        
-        
+
     }
 
     override func scrollViewDidScroll(scrollView: UIScrollView) {

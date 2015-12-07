@@ -106,20 +106,22 @@
         <scene sceneID="83A-uh-29I">
             <objects>
                 <tableViewController id="POn-7k-hn1" userLabel="selectionTableViewController" customClass="selectionTableViewController" customModule="Cape_Town_Summer_Guide_2015" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="223" sectionHeaderHeight="28" sectionFooterHeight="28" id="Eai-QZ-GNz">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="223" sectionHeaderHeight="28" sectionFooterHeight="28" id="Eai-QZ-GNz">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="separatorColor" red="0.18823529410000001" green="0.18823529410000001" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="sectionIndexBackgroundColor" red="0.048841294870000003" green="0.052087571159999999" blue="0.057262207779999998" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="Cell" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="200" id="e3C-tC-S7g" customClass="selectionTableViewCell" customModule="Cape_Town_Summer_Guide_2015" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="92" width="600" height="200"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="e3C-tC-S7g" id="kD9-si-Shs">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="200"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="I1J-sz-Ujw">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I1J-sz-Ujw">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
                                             <animations/>
                                         </imageView>
@@ -165,10 +167,10 @@
             </objects>
             <point key="canvasLocation" x="2300" y="155"/>
         </scene>
-        <!--Activity Table View Controller-->
+        <!--Activities-->
         <scene sceneID="UYG-UN-kOt">
             <objects>
-                <tableViewController id="7Nn-hm-DUF" customClass="activityTableViewController" customModule="Cape_Town_Summer_Guide_2015" sceneMemberID="viewController">
+                <tableViewController title="Activities" id="7Nn-hm-DUF" customClass="activityTableViewController" customModule="Cape_Town_Summer_Guide_2015" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="159" sectionHeaderHeight="28" sectionFooterHeight="28" id="fyQ-Dh-waB">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -256,7 +258,7 @@
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nuY-ph-tR3">
                                             <rect key="frame" x="8" y="46" width="584" height="12"/>
                                             <animations/>
-                                            <mutableString key="text">Enjoy the views of the beautiful False Bay coastline as you wind your way along Boyes Drive to the scenic town of Kalk Bay.
+                                            <string key="text">Enjoy the views of the beautiful False Bay coastline as you wind your way along Boyes Drive to the scenic town of Kalk Bay.
 
 One of the most popular destinations along the False Bay seaboard, Kalk Bay’s Main Road is packed with antique stores, coffee shops, galleries, second-hand bookstores and restaurants.
 
@@ -268,9 +270,9 @@ Essentially a fishing village, Kalk Bay is still a lively working harbour and on
 
 One of the most popular destinations along the False Bay seaboard, Kalk Bay’s Main Road is packed with antique stores, coffee shops, galleries, second-hand bookstores and restaurants.
 
-Essentially a fishing village, Kalk Bay is still a lively working harbour and one of the best places to buy fresh fish straight off the boat. It’s also a great place to take photographs – it’s almost impossible to take a bad picture here!</mutableString>
+Essentially a fishing village, Kalk Bay is still a lively working harbour and one of the best places to buy fresh fish straight off the boat. It’s also a great place to take photographs – it’s almost impossible to take a bad picture here!</string>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
@@ -285,6 +287,10 @@ Essentially a fishing village, Kalk Bay is still a lively working harbour and on
                                     </constraints>
                                 </tableViewCellContentView>
                                 <animations/>
+                                <connections>
+                                    <outlet property="detailPageHeadingLabel" destination="0KQ-3O-RE9" id="eEn-eU-jbI"/>
+                                    <outlet property="detailPageInfoTextLabel" destination="nuY-ph-tR3" id="gY2-K8-gTh"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -292,6 +298,9 @@ Essentially a fishing village, Kalk Bay is still a lively working harbour and on
                             <outlet property="delegate" destination="cXO-IN-Hz8" id="AVK-Tk-Z6d"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="detailImageUIImage" destination="qCN-Kc-tWz" id="vxN-1c-Xwl"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OAr-Mt-5Ys" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -302,13 +311,10 @@ Essentially a fishing village, Kalk Bay is still a lively working harbour and on
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="R0Z-hH-DBN" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="q6o-a0-3Xi">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="q6o-a0-3Xi">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <animations/>
-                        <textAttributes key="titleTextAttributes">
-                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

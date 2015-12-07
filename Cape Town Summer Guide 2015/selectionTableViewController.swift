@@ -12,13 +12,18 @@ class selectionTableViewController: UITableViewController {
 
     var firstArray = [String]()
     var firstHeadingLabel = [String]()
+    var thirdArray = [thirdViewandSoOn]()
+    
     var secondArray = [secondTableInfo]()
     var toPrint = [String]()
     var barBtnColour = UIColor.blackColor()
-    var navBarBtnCustomColour = UIColor(red: 228.0, green: 52.0, blue: 80.0, alpha: 01.0)
+    var navBarBtnCustomColour = UIColor(red: 228/255, green: 52/255, blue: 80/255, alpha: 1)
+    let tableviewBackgroundColour = UIColor(red: 30/255, green: 30/255, blue: 30/255, alpha: 1)
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
 
         firstArray = ["Top2.jpg","Top.jpg","Food.jpg","Beach.jpg","Coffee.jpg","Nightlife.png","Market Blue bird.jpg","Winetasting.jpg","Shop.jpg"]
         firstHeadingLabel = ["Top thing to do","Adventurous","Hungry","Beach bum","Coffee lover","Night life","Markets","Wine Tasting","Shop",]
@@ -30,42 +35,72 @@ class selectionTableViewController: UITableViewController {
             
             //ADVENTUROUS
             secondTableInfo(secondTitle: ["scuba.jpg","kalkBayHarbour.JPG","tokaiForest.jpg","HermanusBeach.jpg"], heading: ["Go Scuba diving","Explore harbours","Tokai Forest run","Hermanus coastal rocks"]),
+
             
             //HUNGRY
             secondTableInfo(secondTitle: ["Food.jpg","Food.jpg","Food.jpg","Food.jpg"], heading: ["","","",""]),
             
+           
+            
+            
             //BEACH VIBES
             secondTableInfo(secondTitle: ["Beach.jpg","Beach.jpg","Beach.jpg","Beach.jpg"], heading: ["","","",""]),
+            
+          
+            
             
             //COFFEE LOVER
             secondTableInfo(secondTitle: ["Coffee.jpg","Coffee.jpg","Coffee.jpg","Coffee.jpg"], heading: ["","","",""]),
             
+          
+            
+            
             //NIGHTLIFE
             secondTableInfo(secondTitle: ["Nightlife.png","Nightlife.png","Nightlife.png","Nightlife.png"], heading: ["","","",""]),
+            
+         
+            
             
             //MARKETS
             secondTableInfo(secondTitle: ["Market Blue bird.jpg","Market Blue bird.jpg","Market Blue bird.jpg","Market Blue bird.jpg"],heading: ["","","",""]),
             
+        
+            
+            
             //WINETASTING
             secondTableInfo(secondTitle: ["Winetasting.jpg","Winetasting.jpg","Winetasting.jpg","Winetasting.jpg"], heading: ["","","",""]),
+            
+       
+            
             
             //SHOP
             secondTableInfo(secondTitle: ["Shop.jpg","Shop.jpg","Shop.jpg","Shop.jpg"], heading: ["","","",""])
 
 ]
         
-//        toPrint = [secondArray]
+
+        thirdArray = [
+            thirdViewandSoOn(detailPageHeading: ["","","",""], detailPageImage:["","","",""],detailPageInfo:["","","",""]),
+            thirdViewandSoOn(detailPageHeading: ["Scuba with seals", "harbour fun", "forest run","Hermanus Beach"], detailPageImage:["scuba.jpg","FishhoekHarbour.JPG","tokaiForest.jpg","HermanusBeach.jpg"],detailPageInfo:["Details Een","Details 2","Details 3","Details 4"]),
+            thirdViewandSoOn(detailPageHeading: ["","","",""], detailPageImage:["","","",""],detailPageInfo:["","","",""]),
+            thirdViewandSoOn(detailPageHeading: ["","","",""], detailPageImage:["","","",""],detailPageInfo:["","","",""]),
+            thirdViewandSoOn(detailPageHeading: ["","","",""], detailPageImage:["","","",""],detailPageInfo:["","","",""]),
+            thirdViewandSoOn(detailPageHeading: ["","","",""], detailPageImage:["","","",""],detailPageInfo:["","","",""]),
+            thirdViewandSoOn(detailPageHeading: ["","","",""], detailPageImage:["","","",""],detailPageInfo:["","","",""]),
+            thirdViewandSoOn(detailPageHeading: ["","","",""], detailPageImage:["","","",""],detailPageInfo:["","","",""]),
+            thirdViewandSoOn(detailPageHeading: ["","","",""], detailPageImage:["","","",""],detailPageInfo:["","","",""]),
+
         
-        print("")
+        ]
         
 
     }
     
     override func viewWillAppear(animated: Bool) {
         self.navigationController?.navigationBarHidden = false
-        self.navigationController?.navigationBar.tintColor = UIColor.blackColor()
-        
-        
+        self.navigationController?.navigationBar.tintColor = navBarBtnCustomColour
+        self.tableView.backgroundColor = tableviewBackgroundColour
+     
     }
 
     override func didReceiveMemoryWarning() {
@@ -112,55 +147,17 @@ class selectionTableViewController: UITableViewController {
         let DestinationViewController = segue.destinationViewController as! activityTableViewController
         
         var secondTableArrayTwo : secondTableInfo
-        
         secondTableArrayTwo = secondArray[indexPath.row]
+        
         DestinationViewController.secondArray = secondTableArrayTwo.secondTitle
         DestinationViewController.secondHeaderLabel = secondTableArrayTwo.heading
         
+        var theNewThird : thirdViewandSoOn
+        theNewThird = thirdArray[indexPath.row]
+        
+        DestinationViewController.secondAnswerArray = theNewThird.detailPageHeading
+
+      
     }
-    /*
-    // Override to support conditional editing of the table view.
-    override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-        // Return false if you do not want the specified item to be editable.
-        return true
-    }
-    */
-
-    /*
-    // Override to support editing the table view.
-    override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
-        if editingStyle == .Delete {
-            // Delete the row from the data source
-            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Fade)
-        } else if editingStyle == .Insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
-    }
-    */
-
-    /*
-    // Override to support rearranging the table view.
-    override func tableView(tableView: UITableView, moveRowAtIndexPath fromIndexPath: NSIndexPath, toIndexPath: NSIndexPath) {
-
-    }
-    */
-
-    /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(tableView: UITableView, canMoveRowAtIndexPath indexPath: NSIndexPath) -> Bool {
-        // Return false if you do not want the item to be re-orderable.
-        return true
-    }
-    */
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+   
 }

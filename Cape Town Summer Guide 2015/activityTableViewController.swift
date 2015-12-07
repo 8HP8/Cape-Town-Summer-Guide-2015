@@ -12,16 +12,18 @@ class activityTableViewController: UITableViewController {
 
     var secondArray = [String]()
     var secondHeaderLabel = [String]()
+    var secondAnswerArray = [String]()
+    
+//    var thirdArray = [secondTableInfo]()
+
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
+    
 
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
+
     }
 
 
@@ -61,4 +63,28 @@ class activityTableViewController: UITableViewController {
         return 200.00
     }
 
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        
+        let indexPath : NSIndexPath = self.tableView.indexPathForSelectedRow!
+        let DestinationViewController = segue.destinationViewController as! detailedNewTableViewController
+        DestinationViewController.thirdLabelText = secondAnswerArray[indexPath.row]
+        DestinationViewController.thirdInfoText = secondAnswerArray[indexPath.row]
+        
+//        var detailArray : secondTableInfo
+//        
+//        detailArray = thirdArray[indexPath.row]
+//        DestinationViewController.detailedImage = detailArray.detailPageImage
+//        DestinationViewController.detailedTitle = detailArray.detailPageHeading
+//        DestinationViewController.detailedText = detailArray.detailPageText
+
+        
+        
+    }
+    
+
+    
 }
+
+
