@@ -18,7 +18,7 @@ class selectionTableViewController: UITableViewController {
     var toPrint = [String]()
     var barBtnColour = UIColor.blackColor()
     var navBarBtnCustomColour = UIColor(red: 228/255, green: 52/255, blue: 80/255, alpha: 1)
-    let tableviewBackgroundColour = UIColor(red: 30/255, green: 30/255, blue: 30/255, alpha: 1)
+//    let tableviewBackgroundColour = UIColor(red: 30/255, green: 30/255, blue: 30/255, alpha: 1)
     
     
     override func viewDidLoad() {
@@ -75,7 +75,6 @@ class selectionTableViewController: UITableViewController {
             
             //SHOP
             secondTableInfo(secondImage: ["Shop.jpg","Shop.jpg","Shop.jpg","Shop.jpg"], heading: ["","","",""])
-
 ]
         
 
@@ -99,7 +98,7 @@ class selectionTableViewController: UITableViewController {
     override func viewWillAppear(animated: Bool) {
         self.navigationController?.navigationBarHidden = false
         self.navigationController?.navigationBar.tintColor = navBarBtnCustomColour
-        self.tableView.backgroundColor = tableviewBackgroundColour
+//        self.tableView.backgroundColor = tableviewBackgroundColour
      
     }
 

@@ -15,17 +15,9 @@ class activityTableViewController: UITableViewController {
     var secondAnswerArray = [String]()
     var ThirdImageFinal = [String]()
 
-
-    
-//    var thirdArray = [secondTableInfo]()
-
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-    
-
 
     }
 
@@ -68,26 +60,12 @@ class activityTableViewController: UITableViewController {
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         
-        
         let indexPath : NSIndexPath = self.tableView.indexPathForSelectedRow!
         let DestinationViewController = segue.destinationViewController as! detailedNewTableViewController
-        
-
         
         DestinationViewController.thirdLabelText = secondAnswerArray[indexPath.row]
         DestinationViewController.thirdInfoText = secondAnswerArray[indexPath.row]
         DestinationViewController.thirdNewImages = ThirdImageFinal[indexPath.row]
-        
-        
-        
-//        var detailArray : secondTableInfo
-//        
-//        detailArray = thirdArray[indexPath.row]
-//        DestinationViewController.detailedImage = detailArray.detailPageImage
-//        DestinationViewController.detailedTitle = detailArray.detailPageHeading
-//        DestinationViewController.detailedText = detailArray.detailPageText
-
-        
         
     }
     

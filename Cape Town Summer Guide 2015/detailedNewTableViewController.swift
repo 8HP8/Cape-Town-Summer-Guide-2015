@@ -13,25 +13,19 @@ class detailedNewTableViewController: UITableViewController {
     var thirdLabelText = String()
     var thirdInfoText = String()
     var thirdNewImages = String()
-    
-    
-//    var image: UIImage{
-//        return UIImage(named: thirdNewImages)!
-//    }
-    
-    @IBOutlet weak var detailImageUIImage: UIImageView!
+
     
     private let tableTopImageHeight: CGFloat = 400.0
     private let tableTopImageCutOff: CGFloat = 80.0
     var headerView :UIView!
     var headerMaskLayer: CAShapeLayer!
     
+    @IBOutlet weak var detailImageUIImage: UIImageView!
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        print(thirdNewImages)
+
         
         tableView.rowHeight = UITableViewAutomaticDimension
         headerView = tableView.tableHeaderView
@@ -51,6 +45,10 @@ class detailedNewTableViewController: UITableViewController {
         tableView.contentInset = UIEdgeInsets(top: effectiveHeight, left: 0, bottom: 0, right: 0)
         tableView.contentOffset = CGPoint(x: 0, y: -effectiveHeight)
         
+        let leftSwipe = UISwipeGestureRecognizer(target: self, action: "handleSwipe:")
+        
+        leftSwipe.direction = .Right
+        view.addGestureRecognizer(leftSwipe)
 
     }
     
@@ -99,14 +97,9 @@ class detailedNewTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("detailedCellNew", forIndexPath: indexPath) as! detailedNewTableViewCell
 
-        
-        
         cell.detailPageHeadingLabel.text = thirdLabelText
         cell.detailPageInfoTextLabel.text = thirdInfoText
         
-        
-        
-
         return cell
     }
     
@@ -126,15 +119,14 @@ class detailedNewTableViewController: UITableViewController {
         path.addLineToPoint(CGPoint(x: headerRect.width, y: headerRect.height))
         path.addLineToPoint(CGPoint(x: 0, y: headerRect.height-tableTopImageCutOff))
         headerMaskLayer?.path = path.CGPath
-        
-
     }
 
     override func scrollViewDidScroll(scrollView: UIScrollView) {
         updateHeaderView()
     }
     
+    func handleSwipe(sender: UIGestureRecognizer){
+        navigationController?.popViewControllerAnimated(true)
     
-    
-
+    }
 }
