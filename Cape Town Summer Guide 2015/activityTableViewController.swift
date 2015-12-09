@@ -14,6 +14,7 @@ class activityTableViewController: UITableViewController {
     var secondHeaderLabel = [String]()
     var secondAnswerArray = [String]()
     var ThirdImageFinal = [String]()
+    var ThirdInfo = [String]()
 
     
     override func viewDidLoad() {
@@ -64,7 +65,7 @@ class activityTableViewController: UITableViewController {
         let DestinationViewController = segue.destinationViewController as! detailedNewTableViewController
         
         DestinationViewController.thirdLabelText = secondAnswerArray[indexPath.row]
-        DestinationViewController.thirdInfoText = secondAnswerArray[indexPath.row]
+        DestinationViewController.thirdInfoText = ThirdInfo[indexPath.row]
         DestinationViewController.thirdNewImages = ThirdImageFinal[indexPath.row]
         
     }

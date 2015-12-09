@@ -230,7 +230,7 @@
         <scene sceneID="oOc-wg-oUs">
             <objects>
                 <tableViewController id="cXO-IN-Hz8" customClass="detailedNewTableViewController" customModule="Cape_Town_Summer_Guide_2015" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="106" sectionHeaderHeight="28" sectionFooterHeight="28" id="dtO-yU-dAd">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="190" sectionHeaderHeight="28" sectionFooterHeight="28" id="dtO-yU-dAd">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
@@ -241,11 +241,11 @@
                             <animations/>
                         </imageView>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="detailedCellNew" rowHeight="106" id="Tag-0c-75g" customClass="detailedNewTableViewCell" customModule="Cape_Town_Summer_Guide_2015" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="392" width="600" height="106"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="detailedCellNew" rowHeight="190" id="Tag-0c-75g" customClass="detailedNewTableViewCell" customModule="Cape_Town_Summer_Guide_2015" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="392" width="600" height="190"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Tag-0c-75g" id="hCK-ry-q5E">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="105"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="189"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KalkBay" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0KQ-3O-RE9">
@@ -255,36 +255,53 @@
                                             <color key="textColor" red="0.89411764709999997" green="0.20392156859999999" blue="0.31372549020000001" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nuY-ph-tR3">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Info text" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nuY-ph-tR3">
                                             <rect key="frame" x="8" y="46" width="584" height="12"/>
                                             <animations/>
-                                            <string key="text">Enjoy the views of the beautiful False Bay coastline as you wind your way along Boyes Drive to the scenic town of Kalk Bay.
-
-One of the most popular destinations along the False Bay seaboard, Kalk Bay’s Main Road is packed with antique stores, coffee shops, galleries, second-hand bookstores and restaurants.
-
-Essentially a fishing village, Kalk Bay is still a lively working harbour and one of the best places to buy fresh fish straight off the boat. It’s also a great place to take photographs – it’s almost impossible to take a bad picture here! Enjoy the views of the beautiful False Bay coastline as you wind your way along Boyes Drive to the scenic town of Kalk Bay.
-
-One of the most popular destinations along the False Bay seaboard, Kalk Bay’s Main Road is packed with antique stores, coffee shops, galleries, second-hand bookstores and restaurants.
-
-Essentially a fishing village, Kalk Bay is still a lively working harbour and one of the best places to buy fresh fish straight off the boat. It’s also a great place to take photographs – it’s almost impossible to take a bad picture here! Enjoy the views of the beautiful False Bay coastline as you wind your way along Boyes Drive to the scenic town of Kalk Bay.
-
-One of the most popular destinations along the False Bay seaboard, Kalk Bay’s Main Road is packed with antique stores, coffee shops, galleries, second-hand bookstores and restaurants.
-
-Essentially a fishing village, Kalk Bay is still a lively working harbour and one of the best places to buy fresh fish straight off the boat. It’s also a great place to take photographs – it’s almost impossible to take a bad picture here!</string>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="fFh-Wo-IIH">
+                                            <rect key="frame" x="8" y="131" width="584" height="50"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W2d-pS-ncR">
+                                                    <rect key="frame" x="0.0" y="0.0" width="282" height="50"/>
+                                                    <animations/>
+                                                    <color key="backgroundColor" red="0.89411764709999997" green="0.2037804111" blue="0.31372549020000001" alpha="0.69089439659999996" colorSpace="calibratedRGB"/>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="contactAdd" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hYv-tf-FmN">
+                                                    <rect key="frame" x="302" y="0.0" width="282" height="50"/>
+                                                    <animations/>
+                                                    <color key="backgroundColor" red="0.89411764709999997" green="0.2037804111" blue="0.31372549020000001" alpha="0.69089439659999996" colorSpace="calibratedRGB"/>
+                                                </button>
+                                            </subviews>
+                                            <animations/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="50" id="W3w-fi-4UO"/>
+                                            </constraints>
+                                        </stackView>
                                     </subviews>
                                     <animations/>
                                     <constraints>
+                                        <constraint firstAttribute="bottomMargin" secondItem="nuY-ph-tR3" secondAttribute="bottom" constant="123" id="57T-jO-xjp"/>
                                         <constraint firstItem="nuY-ph-tR3" firstAttribute="top" secondItem="0KQ-3O-RE9" secondAttribute="bottom" constant="8" id="BrM-Ps-RiP"/>
                                         <constraint firstAttribute="leadingMargin" secondItem="nuY-ph-tR3" secondAttribute="leading" id="JbX-Rt-iJc"/>
                                         <constraint firstAttribute="topMargin" secondItem="0KQ-3O-RE9" secondAttribute="top" id="KvC-PK-H9G"/>
+                                        <constraint firstAttribute="trailing" secondItem="fFh-Wo-IIH" secondAttribute="trailing" constant="8" id="PUg-Ny-ods"/>
                                         <constraint firstAttribute="leadingMargin" secondItem="0KQ-3O-RE9" secondAttribute="leading" id="YKi-kt-kgq"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="nuY-ph-tR3" secondAttribute="trailing" id="d8f-Hx-MrI"/>
+                                        <constraint firstAttribute="bottom" secondItem="fFh-Wo-IIH" secondAttribute="bottom" constant="8" id="ec3-77-zu9"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="nuY-ph-tR3" secondAttribute="bottom" constant="96" id="ifr-rB-LZa"/>
+                                        <constraint firstItem="fFh-Wo-IIH" firstAttribute="leading" secondItem="hCK-ry-q5E" secondAttribute="leading" constant="8" id="n3r-xp-8nO"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="nuY-ph-tR3" secondAttribute="bottom" constant="39" id="zcU-9l-fSy"/>
                                     </constraints>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="ifr-rB-LZa"/>
+                                            <exclude reference="zcU-9l-fSy"/>
+                                        </mask>
+                                    </variation>
                                 </tableViewCellContentView>
                                 <animations/>
                                 <connections>
