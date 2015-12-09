@@ -13,11 +13,6 @@ class activitiesTableViewCell: UITableViewCell {
     @IBOutlet weak var secondImage: UIImageView!
     @IBOutlet weak var secondLabel: UILabel!
     
-   // @IBOutlet weak var secondImage: UIImageView!
- //   @IBOutlet weak var secondLabel: UILabel!
-    
-    
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

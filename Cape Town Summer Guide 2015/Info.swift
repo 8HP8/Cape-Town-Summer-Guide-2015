@@ -21,9 +21,15 @@ class firstTableInfo{
 
 struct secondTableInfo {
     
-    var secondTitle : [String]
+    var secondImage : [String]
     var heading : [String]
 }
+
+struct thirdViewandSoOn {
+    var detailPageHeading = [String]()
+    var detailPageImage = [String]()
+    var detailPageInfo = [String]()
+    }
 
 
 

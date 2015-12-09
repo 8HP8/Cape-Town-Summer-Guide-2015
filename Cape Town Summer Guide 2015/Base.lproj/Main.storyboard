@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="R0Z-hH-DBN">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Welcome View Controller-->
@@ -105,21 +106,23 @@
         <scene sceneID="83A-uh-29I">
             <objects>
                 <tableViewController id="POn-7k-hn1" userLabel="selectionTableViewController" customClass="selectionTableViewController" customModule="Cape_Town_Summer_Guide_2015" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="223" sectionHeaderHeight="28" sectionFooterHeight="28" id="Eai-QZ-GNz">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="223" sectionHeaderHeight="28" sectionFooterHeight="28" id="Eai-QZ-GNz">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="separatorColor" red="0.18823529410000001" green="0.18823529410000001" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="sectionIndexBackgroundColor" red="0.048841294870000003" green="0.052087571159999999" blue="0.057262207779999998" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="Cell" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="200" id="e3C-tC-S7g" customClass="selectionTableViewCell" customModule="Cape_Town_Summer_Guide_2015" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="92" width="600" height="200"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="e3C-tC-S7g" id="kD9-si-Shs">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="200"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="I1J-sz-Ujw">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="199"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="200"/>
                                             <animations/>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mqA-Wq-EXd">
@@ -164,10 +167,10 @@
             </objects>
             <point key="canvasLocation" x="2300" y="155"/>
         </scene>
-        <!--Activity Table View Controller-->
+        <!--Activities-->
         <scene sceneID="UYG-UN-kOt">
             <objects>
-                <tableViewController id="7Nn-hm-DUF" customClass="activityTableViewController" customModule="Cape_Town_Summer_Guide_2015" sceneMemberID="viewController">
+                <tableViewController title="Activities" id="7Nn-hm-DUF" customClass="activityTableViewController" customModule="Cape_Town_Summer_Guide_2015" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="159" sectionHeaderHeight="28" sectionFooterHeight="28" id="fyQ-Dh-waB">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -186,9 +189,9 @@
                                             <animations/>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hP8-aA-qkR">
-                                            <rect key="frame" x="275" y="87" width="51" height="25"/>
+                                            <rect key="frame" x="260" y="81" width="80" height="38"/>
                                             <animations/>
-                                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="19"/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <nil key="highlightedColor"/>
                                             <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -209,6 +212,7 @@
                                 <connections>
                                     <outlet property="secondImage" destination="mMJ-Fz-gTJ" id="1zZ-Qc-TQ2"/>
                                     <outlet property="secondLabel" destination="hP8-aA-qkR" id="vu0-9T-Uxc"/>
+                                    <segue destination="cXO-IN-Hz8" kind="show" id="t2h-Ra-Ncu"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -222,12 +226,87 @@
             </objects>
             <point key="canvasLocation" x="3030" y="155"/>
         </scene>
+        <!--Detailed New Table View Controller-->
+        <scene sceneID="oOc-wg-oUs">
+            <objects>
+                <tableViewController id="cXO-IN-Hz8" customClass="detailedNewTableViewController" customModule="Cape_Town_Summer_Guide_2015" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="122" sectionHeaderHeight="28" sectionFooterHeight="28" id="dtO-yU-dAd">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <imageView key="tableHeaderView" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kalkBayHarbour.JPG" id="qCN-Kc-tWz">
+                            <rect key="frame" x="0.0" y="64" width="600" height="300"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <animations/>
+                        </imageView>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="detailedCellNew" rowHeight="122" id="Tag-0c-75g" customClass="detailedNewTableViewCell" customModule="Cape_Town_Summer_Guide_2015" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="392" width="600" height="122"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Tag-0c-75g" id="hCK-ry-q5E">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="121"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KalkBay" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0KQ-3O-RE9">
+                                            <rect key="frame" x="8" y="8" width="99" height="30"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="25"/>
+                                            <color key="textColor" red="0.89411764709999997" green="0.20392156859999999" blue="0.31372549020000001" alpha="0.84999999999999998" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Info text" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nuY-ph-tR3">
+                                            <rect key="frame" x="8" y="46" width="584" height="12"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <animations/>
+                                    <constraints>
+                                        <constraint firstItem="nuY-ph-tR3" firstAttribute="top" secondItem="0KQ-3O-RE9" secondAttribute="bottom" constant="8" id="BrM-Ps-RiP"/>
+                                        <constraint firstAttribute="leadingMargin" secondItem="nuY-ph-tR3" secondAttribute="leading" id="JbX-Rt-iJc"/>
+                                        <constraint firstAttribute="topMargin" secondItem="0KQ-3O-RE9" secondAttribute="top" id="KvC-PK-H9G"/>
+                                        <constraint firstAttribute="leadingMargin" secondItem="0KQ-3O-RE9" secondAttribute="leading" id="YKi-kt-kgq"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="nuY-ph-tR3" secondAttribute="trailing" id="d8f-Hx-MrI"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="nuY-ph-tR3" secondAttribute="bottom" constant="96" id="ifr-rB-LZa"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="nuY-ph-tR3" secondAttribute="bottom" constant="55" id="m1Y-PO-iay"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="nuY-ph-tR3" secondAttribute="bottom" constant="39" id="zcU-9l-fSy"/>
+                                    </constraints>
+                                    <variation key="default">
+                                        <mask key="constraints">
+                                            <exclude reference="ifr-rB-LZa"/>
+                                            <exclude reference="zcU-9l-fSy"/>
+                                        </mask>
+                                    </variation>
+                                </tableViewCellContentView>
+                                <animations/>
+                                <connections>
+                                    <outlet property="detailPageHeadingLabel" destination="0KQ-3O-RE9" id="eEn-eU-jbI"/>
+                                    <outlet property="detailPageInfoTextLabel" destination="nuY-ph-tR3" id="gY2-K8-gTh"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="cXO-IN-Hz8" id="5r5-Gv-7hu"/>
+                            <outlet property="delegate" destination="cXO-IN-Hz8" id="AVK-Tk-Z6d"/>
+                        </connections>
+                    </tableView>
+                    <connections>
+                        <outlet property="detailImageUIImage" destination="qCN-Kc-tWz" id="vxN-1c-Xwl"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OAr-Mt-5Ys" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3796" y="155"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="NEk-GO-LsB">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="R0Z-hH-DBN" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="q6o-a0-3Xi">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="q6o-a0-3Xi">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <animations/>
@@ -246,6 +325,7 @@
         <image name="Cape-Town Logo" width="436" height="141"/>
         <image name="ExploreBackground" width="1200" height="1600"/>
         <image name="explore" width="299" height="147"/>
+        <image name="kalkBayHarbour.JPG" width="2448" height="2448"/>
         <image name="summer-guide-0" width="544" height="154"/>
     </resources>
 </document>

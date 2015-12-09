@@ -12,6 +12,10 @@ class WelcomeViewController: UIViewController {
 
     @IBOutlet weak var exporeBtn: UIButton!
     
+    override func prefersStatusBarHidden() -> Bool {
+        return true
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

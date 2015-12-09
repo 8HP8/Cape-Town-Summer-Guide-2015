@@ -12,16 +12,14 @@ class activityTableViewController: UITableViewController {
 
     var secondArray = [String]()
     var secondHeaderLabel = [String]()
+    var secondAnswerArray = [String]()
+    var ThirdImageFinal = [String]()
+    var ThirdInfo = [String]()
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
 
 
@@ -49,9 +47,8 @@ class activityTableViewController: UITableViewController {
         let image = UIImage(named: entry)
         
         
-        
+
         cell.secondLabel?.text = secondHeaderLabel[indexPath.row]
-        
         cell.secondImage.image = image
         
         return cell
@@ -61,4 +58,20 @@ class activityTableViewController: UITableViewController {
         return 200.00
     }
 
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        let indexPath : NSIndexPath = self.tableView.indexPathForSelectedRow!
+        let DestinationViewController = segue.destinationViewController as! detailedNewTableViewController
+        
+        DestinationViewController.thirdLabelText = secondAnswerArray[indexPath.row]
+        DestinationViewController.thirdInfoText = ThirdInfo[indexPath.row]
+        DestinationViewController.thirdNewImages = ThirdImageFinal[indexPath.row]
+        
+    }
+    
+
+    
 }
+
+
