@@ -25,7 +25,7 @@ class WelcomeViewController: UIViewController {
     override func viewWillAppear(animated: Bool) {
         self.navigationController?.navigationBar.tintColor = UIColor(red: 0.228, green: 0.52, blue: 0.80, alpha: 1)
         self.navigationController?.navigationBarHidden = true
-        exporeBtn.layer.cornerRadius = 5.0
+        exporeBtn.layer.cornerRadius = 15.0
         exporeBtn.clipsToBounds = true
         
           }

@@ -53,8 +53,10 @@ class detailedNewTableViewController: UITableViewController {
     
     override func viewWillAppear(animated: Bool) {
         self.navigationController?.navigationBarHidden = true
+        self.tableView.separatorColor = UIColor.clearColor()
+
         
-            detailImageUIImage.image = UIImage(named: thirdNewImages)
+        detailImageUIImage.image = UIImage(named: thirdNewImages)
         
     }
     override func prefersStatusBarHidden() -> Bool {

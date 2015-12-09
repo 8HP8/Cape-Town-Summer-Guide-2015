@@ -21,6 +21,11 @@ class activityTableViewController: UITableViewController {
         super.viewDidLoad()
 
     }
+    
+    override func viewWillAppear(animated: Bool) {
+        self.tableView.separatorColor = UIColor.clearColor()
+
+    }
 
 
     override func didReceiveMemoryWarning() {

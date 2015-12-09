@@ -27,6 +27,8 @@ class selectionTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationController?.navigationBarHidden = false
+        self.tableView.separatorColor = UIColor.clearColor()
+
 
         
         
@@ -84,8 +86,8 @@ class selectionTableViewController: UITableViewController {
                 "climbTableMountain.png",
                 "kayaking.jpg",
                 "paraglid.jpg",
-                "abseil.jpg",
-                "LionsHead.png",
+                "abseiling.jpg",
+                "lionsHead2.png",
                 "tokaiForest.png"],
             
             
@@ -326,7 +328,7 @@ class selectionTableViewController: UITableViewController {
                     "climbTableMountain.png",
                     "kayaking.jpg",
                     "paraglid.jpg",
-                    "abseil.jpg",
+                    "abseiling.jpg",
                     "lionsHead2.png",
                     "waterfront.png"],
                 
