@@ -19,11 +19,12 @@ class activityTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
     }
     
     override func viewWillAppear(animated: Bool) {
         self.tableView.separatorColor = UIColor.clearColor()
+
 
     }
 
@@ -40,6 +41,7 @@ class activityTableViewController: UITableViewController {
         return 1
     }
 
+    
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return secondArray.count
@@ -48,10 +50,10 @@ class activityTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("secondCell", forIndexPath: indexPath) as! activitiesTableViewCell
 
+        
         let entry = secondArray[indexPath.row]
         let image = UIImage(named: entry)
-        
-        
+
 
         cell.secondLabel?.text = secondHeaderLabel[indexPath.row]
         cell.secondImage.image = image
@@ -72,6 +74,8 @@ class activityTableViewController: UITableViewController {
         DestinationViewController.thirdLabelText = secondAnswerArray[indexPath.row]
         DestinationViewController.thirdInfoText = ThirdInfo[indexPath.row]
         DestinationViewController.thirdNewImages = ThirdImageFinal[indexPath.row]
+        
+        
         
     }
     

@@ -16,7 +16,7 @@ class detailedNewTableViewController: UITableViewController {
 
     
     private let tableTopImageHeight: CGFloat = 400.0
-    private let tableTopImageCutOff: CGFloat = 80.0
+    private let tableTopImageCutOff: CGFloat = 50.0
     var headerView :UIView!
     var headerMaskLayer: CAShapeLayer!
     
@@ -33,8 +33,7 @@ class detailedNewTableViewController: UITableViewController {
         tableView.addSubview(headerView)
         tableView.contentInset = UIEdgeInsets(top: tableTopImageHeight, left: 0, bottom: 0, right: 0)
         tableView.contentOffset = CGPoint(x: 0, y: -tableTopImageHeight)
-        
-        
+        tableView.allowsSelection = false
         headerMaskLayer = CAShapeLayer()
         headerMaskLayer.fillColor = UIColor.blackColor().CGColor
         headerView.layer.mask = headerMaskLayer
@@ -54,6 +53,7 @@ class detailedNewTableViewController: UITableViewController {
     override func viewWillAppear(animated: Bool) {
         self.navigationController?.navigationBarHidden = true
         self.tableView.separatorColor = UIColor.clearColor()
+        
 
         
         detailImageUIImage.image = UIImage(named: thirdNewImages)

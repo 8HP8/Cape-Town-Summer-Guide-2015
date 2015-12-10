@@ -175,7 +175,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="secondCell" rowHeight="200" id="aIi-Ag-Xz7" customClass="activitiesTableViewCell" customModule="Cape_Town_Summer_Guide_2015" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="92" width="600" height="200"/>
@@ -230,22 +229,22 @@
         <scene sceneID="oOc-wg-oUs">
             <objects>
                 <tableViewController id="cXO-IN-Hz8" customClass="detailedNewTableViewController" customModule="Cape_Town_Summer_Guide_2015" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="122" sectionHeaderHeight="28" sectionFooterHeight="28" id="dtO-yU-dAd">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="123" sectionHeaderHeight="28" sectionFooterHeight="28" id="dtO-yU-dAd">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <imageView key="tableHeaderView" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kalkBayHarbour.JPG" id="qCN-Kc-tWz">
+                        <imageView key="tableHeaderView" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="qCN-Kc-tWz">
                             <rect key="frame" x="0.0" y="64" width="600" height="300"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <animations/>
                         </imageView>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="detailedCellNew" rowHeight="122" id="Tag-0c-75g" customClass="detailedNewTableViewCell" customModule="Cape_Town_Summer_Guide_2015" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="392" width="600" height="122"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="detailedCellNew" rowHeight="123" id="Tag-0c-75g" customClass="detailedNewTableViewCell" customModule="Cape_Town_Summer_Guide_2015" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="392" width="600" height="123"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Tag-0c-75g" id="hCK-ry-q5E">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="121"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="122"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KalkBay" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0KQ-3O-RE9">
@@ -262,16 +261,53 @@
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="9hj-FX-tbr">
+                                            <rect key="frame" x="0.0" y="75" width="590" height="47"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gaj-q9-L2Q">
+                                                    <rect key="frame" x="0.0" y="0.0" width="285" height="47"/>
+                                                    <animations/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="47" id="Izo-S3-ccH"/>
+                                                        <constraint firstAttribute="width" constant="140" id="f5S-jq-jUP"/>
+                                                    </constraints>
+                                                    <state key="normal" image="infobtn"/>
+                                                    <variation key="default">
+                                                        <mask key="constraints">
+                                                            <exclude reference="f5S-jq-jUP"/>
+                                                        </mask>
+                                                    </variation>
+                                                </button>
+                                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S2J-JM-eLY">
+                                                    <rect key="frame" x="305" y="0.0" width="285" height="47"/>
+                                                    <animations/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="47" id="OqD-ge-QXq"/>
+                                                        <constraint firstAttribute="width" constant="140" id="qFK-uv-y1F"/>
+                                                    </constraints>
+                                                    <state key="normal" image="mapinfo"/>
+                                                    <variation key="default">
+                                                        <mask key="constraints">
+                                                            <exclude reference="qFK-uv-y1F"/>
+                                                        </mask>
+                                                    </variation>
+                                                </button>
+                                            </subviews>
+                                            <animations/>
+                                        </stackView>
                                     </subviews>
                                     <animations/>
                                     <constraints>
                                         <constraint firstItem="nuY-ph-tR3" firstAttribute="top" secondItem="0KQ-3O-RE9" secondAttribute="bottom" constant="8" id="BrM-Ps-RiP"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="nuY-ph-tR3" secondAttribute="bottom" constant="56" id="GXY-Nr-JQO"/>
                                         <constraint firstAttribute="leadingMargin" secondItem="nuY-ph-tR3" secondAttribute="leading" id="JbX-Rt-iJc"/>
                                         <constraint firstAttribute="topMargin" secondItem="0KQ-3O-RE9" secondAttribute="top" id="KvC-PK-H9G"/>
+                                        <constraint firstAttribute="bottom" secondItem="9hj-FX-tbr" secondAttribute="bottom" id="UEY-tu-d3M"/>
                                         <constraint firstAttribute="leadingMargin" secondItem="0KQ-3O-RE9" secondAttribute="leading" id="YKi-kt-kgq"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="nuY-ph-tR3" secondAttribute="trailing" id="d8f-Hx-MrI"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="nuY-ph-tR3" secondAttribute="bottom" constant="96" id="ifr-rB-LZa"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="nuY-ph-tR3" secondAttribute="bottom" constant="55" id="m1Y-PO-iay"/>
+                                        <constraint firstAttribute="trailing" secondItem="9hj-FX-tbr" secondAttribute="trailing" constant="10" id="r0V-bs-Fhb"/>
+                                        <constraint firstItem="9hj-FX-tbr" firstAttribute="leading" secondItem="hCK-ry-q5E" secondAttribute="leading" id="tZD-Tu-meo"/>
                                         <constraint firstAttribute="bottomMargin" secondItem="nuY-ph-tR3" secondAttribute="bottom" constant="39" id="zcU-9l-fSy"/>
                                     </constraints>
                                     <variation key="default">
@@ -299,7 +335,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OAr-Mt-5Ys" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3796" y="155"/>
+            <point key="canvasLocation" x="3795" y="154"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="NEk-GO-LsB">
@@ -325,7 +361,8 @@
         <image name="Cape-Town Logo" width="436" height="141"/>
         <image name="ExploreBackground" width="1200" height="1600"/>
         <image name="explore" width="299" height="147"/>
-        <image name="kalkBayHarbour.JPG" width="2448" height="2448"/>
+        <image name="infobtn" width="1701" height="567"/>
+        <image name="mapinfo" width="1701" height="567"/>
         <image name="summer-guide-0" width="544" height="154"/>
     </resources>
 </document>

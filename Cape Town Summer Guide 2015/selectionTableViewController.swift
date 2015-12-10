@@ -249,7 +249,7 @@ class selectionTableViewController: UITableViewController {
                 "Beau.png",
                 "stellenbosch.jpg",
                 "grootcon.jpg",
-                "bistro82.png"
+                "B82.png"
                 ],
 
                 
@@ -650,7 +650,7 @@ class selectionTableViewController: UITableViewController {
                     "Beau.png",
                     "stellenbosch.jpg",
                     "grootcon.jpg",
-                    "bistro82.png"
+                    "B82.png"
 
                 ],
                 
