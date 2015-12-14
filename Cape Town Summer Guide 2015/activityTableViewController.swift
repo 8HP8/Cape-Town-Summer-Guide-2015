@@ -15,11 +15,14 @@ class activityTableViewController: UITableViewController {
     var secondAnswerArray = [String]()
     var ThirdImageFinal = [String]()
     var ThirdInfo = [String]()
+    
+    var MapX = [Double]()
+    var MapY = [Double]()
+    var website = [String]()
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -75,6 +78,9 @@ class activityTableViewController: UITableViewController {
         DestinationViewController.thirdInfoText = ThirdInfo[indexPath.row]
         DestinationViewController.thirdNewImages = ThirdImageFinal[indexPath.row]
         
+        DestinationViewController.mapX = MapX[indexPath.row]
+        DestinationViewController.mapY = MapY[indexPath.row]
+        DestinationViewController.activityWebsite = website[indexPath.row]
         
         
     }

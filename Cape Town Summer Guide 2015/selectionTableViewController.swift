@@ -66,6 +66,7 @@ class selectionTableViewController: UITableViewController {
                 "tablemountain.png",
                 "CliftonClear.png",
                 "redbus.jpg",
+                "bokaap.jpg",
                 "diveSeals.png",
                 "robbinIsland.jpg",
                 "cape-point-nature-reserve.jpg",
@@ -75,6 +76,7 @@ class selectionTableViewController: UITableViewController {
                     "Table Mountain",
                     "Clifton Beach",
                     "Hop on hop off",
+                    "Explore Bo-Kaap",
                     "Dive with seals",
                     "Visit Robben Island",
                     "Cape Point",
@@ -103,7 +105,6 @@ class selectionTableViewController: UITableViewController {
             
             //HUNGRY
             secondTableInfo(secondImage: [
-                "gormetBoerie.png",
                 "elBuro.jpg",
                 "villageIdiot.jpg",
                 "ricksCafe.JPG",
@@ -118,7 +119,6 @@ class selectionTableViewController: UITableViewController {
                 ],
                 
                 heading: [
-                    "Gormet Boerie",
                     "El Burro",
                     "Village Idiot",
                     "Rick's Cafe American",
@@ -276,6 +276,7 @@ class selectionTableViewController: UITableViewController {
                 "Table Mountain",
                 "Clifton Beach",
                 "Hop on hop off",
+                "Explore Bo-Kaap",
                 "Dive with seals",
                 "Visit Robben Island",
                 "Cape Point",
@@ -285,6 +286,7 @@ class selectionTableViewController: UITableViewController {
                     "tablemountain.png",
                     "CliftonClear.png",
                     "redbus.jpg",
+                    "bokaap.jpg",
                     "diveSeals.png",
                     "robbinIsland.jpg",
                     "cape-point-nature-reserve.jpg",
@@ -300,8 +302,13 @@ class selectionTableViewController: UITableViewController {
                     //HopOnHopOff
                     "GET A VIEW FROM THE TOP: The open-top double-decker buses of City Sightseeing are one of the best ways to take in the highlights of Cape Town. With the sun on your shoulders, and an elevated view of your surroundings, you’ll see why the CitySightseeing Bus is the popular official tour of Cape Town and is enjoyed by visitors and locals alike. Rainy day?  No problem.  Sit inside and enjoy the Mother City's amazing views in warm comfort. Stunning views of the city from the top of an open-topped City Sightseeing bus, image courtesy of mikkels via Flickr. SEE THE SIGHTS:There are two routes covering more than 20 of Cape Town’s iconic attractions and destinations: The Red Route, including the Two Oceans Aquarium, V&A Waterfront, The South African Museum, Table Mountain Cable Way and more. The Blue Route, including Kirstenbosch Botanical Garden, Camps Bay, Sea Point and the Constantia Wine Route and more. HOP-ON-HOP-OFF: The buses depart from outside the Two Oceans Aquarium every 15 minutes, seven days a week, starting from 09h00, and you can use your ticket to jump off at any of the stops near the attraction you wish to visit, and get back on the next bus after you are done. Red City Tour running times: Summer: 1st Bus departs from Bus Stop 1, Two Oceans Aquarium at 09h00 with departures every 15 minutes. Winter: 1st Bus departs from Bus Stop 1, Two Oceans Aquarium at 09h15 with departures every 20 minutes. Blue Mini Peninsula Tour running times: Summer: 1st Bus departs from Bus Stop 1, Two Oceans Aquarium at 09h00 with departures every 20 min - (Saturday, Sunday,  school & public holidays) and every 25 min (Mondays to Fridays)Winter: 1st Bus departs from Bus Stop 1, Two Oceans Aquarium at 09h15 with departures every 35 minutes.TICKET PRICES: The 1-Day Ticket (R170 or buy online discounted: R150) is valid for both the Red City Tour and Blue Mini Peninsula Tour on the day of issue.The 2-Day Ticket (R270 or buy online discounted: R250) is valid for two consecutive days (so you can continue the tour the next day if you’ve been sidetracked at a particular destination) The two-day ticket also gives you FREE access to: Night Tour – operates between September and April, Canal Cruise - that operates between the Two Oceans Aquarium at the V&A Waterfront and the Cape Town International Convention Centre, Walking Tour – choose between City Walk (am) and Bo-Kaap Walk (pm). SO YOU SPEAK MY LANGUAGE? Buses are equipped for wheelchairs and the tour commentary is available in 16 languages including English, German, Dutch, French, Russian, Spanish, Mandarin, Italian, Arabic, Portuguese, Afrikaans, Zulu, Turkish, Japanese and a special Kids Club commentary for the junior passengers.",
                     
+                    //Explore Bokaap
+                    "Known for its brightly coloured houses and situated at the foot of Signal Hill, Bo-Kaap is the spiritual home of the Cape’s Muslim community. Bo-Kaap has a fascinating history. Many of the residents are descendants of slaves from Malaysia, Indonesia and various African countries, who were imported to the Cape of Good Hope by the Dutch during the 16th and 17th centuries. The slaves were known as “Cape Malays” (which is not essentially true as most of the residents are not entirely of Malaysian descent). However the term has stuck and Bo-Kaap is also known today as the Cape Malay Quarter. The museum building dates back to the 1760s and is the oldest house in the area that is still in its original form. The main focus is the contribution made by early Muslim settlers, and the house depicts a recreation of the life of a typical Malay family. Head towards Dorp Street and you’ll find the Auwal, South Africa’s first official mosque. This historic building was founded in 1797 by the influential Imam Abdulla ibn Abd al Salaam, a well-known Muslim scholar and activist. One thing you simply have to do when visiting Bo-Kaap is to have a traditional Cape Malay meal at one of the restaurants. Spices are heady and recipes date back centuries. Next to Bo-Kaap you’ll find De Waterkant. This trendy area has become one of the most sought-after addresses in Cape Town. Many of the old 19th-century homes have been transformed to create a village feel reminiscent of London’s Soho and New York’s Greenwich Village. There are numerous art galleries and restaurants and the area is popular with fashionistas from around the globe. (Photo Credit: Carina König)",
+                    
                     //Dive Seals
                     "Scuba diving with seals in Cape Town is a must for every scuba enthusiast. Explore the kelp forests around Duiker Island, Partridge Point and Strawberry Rock and be entertained by these beautiful creatures. Unlike when they are above water, where they are slow and awkward, seals are amazingly agile under the water. They live in closely knit colonies and it often happens that when we go scuba diving near them that we encounter dozens of them underwater at the same time. They are playful and curious creatures and are also known as the clowns of Cape Town. They love to swim around scuba divers and are bound to make your dive experience a memorable one. There are 3 sites where we can scuba dive with them. STRAWBERRY ROCK: This site is located to the north of Sandy Cove, opposite the Twelve Apostles Hotel in Oudekraal. There are two large granite boulders which stick out of the water and are home to around 70 Cape Fur Seals. Besides the playful seals that can be found there, the site is home to lots of strawberry anemones and other colourful invertebrates. With an interesting rocky reef on the north side, and a dense kelp forest in the south, the site is well worth the fairly long surface swim. DUIKER ISLAND: Also known as Seal Island, Duiker Island is located below the Sentinel in Hout Bay the site is a popular destination for divers and sight-seers alike. This is because the large granite boulders that stick out are home to 1000’s of Cape Fur Seals, one of the Cape’s largest colonies. This dive is one where you are guaranteed to see loads of them  in amongst the dense kelp forest surrounding the island. Be sure to bring your camera! PARTRIDGE POINT: The dive site of Seal Rock is located in Partridge Point in False Bay near Miller Point. The site consists of not only of the obvious Cape fur seals, but also a deep reef to the east. The site is a host to brightly coloured and various invertebrates which makes it a very diverse and interesting site to visit for lovers of both large and small aquatic life forms. The only thing to look out for is the strong surge and swell that can be present at this site.",
+                    
+  
                     
                     //Robbin Island (http://www.robben-island.org.za/tours)
                     "Currently the boat runs three times a day, 09h00, 11h00 and 13h00 until the beginning of the peak season (01 September). The ferries depart from the Nelson Mandela Gateway at the V & A Waterfront. The tour takes 3.5 hours including the ferry trip to and from the Island (Depending on the boat used as they have different travel times). You will disembark at Murray’s Bay Harbour situated on the east coast of the Island and take a short walk to buses that will transport you to all the historical sites around the Island. On the way to the buses, you will pass buildings and a high wall built by prisoners during the 1960s.The buildings were used for family and lawyer visits to prisoners. You will meet your Tour Guide when you have boarded the busses. The Tour guides inside the prison are former political prisoners. They are fully conversant and knowledgeable about the Island’s multi-layered 500 year old history. The tour route includes the graveyard of people who died from leprosy, the Lime Quarry, Robert Sobukwe’s house, the Bluestone quarry, the army and navy bunkers and the Maximum Security Prison where thousands of South Africa’s freedom fighters were incarcerated for years. The tour culminates with a viewing of Nelson Mandela’s cell",
@@ -310,8 +317,72 @@ class selectionTableViewController: UITableViewController {
                     "Rugged rocks and sheer cliffs towering more than 200 metres above the sea and cutting deep into the ocean provide a spectacular background for the Parks’ rich bio-diversity. Cape Point falls within the southern section of Table Mountain National Park. The natural vegetation of the area, fynbos, comprises the smallest but richest of the world’s six floral kingdoms. The scenic beauty of Cape Point is not its sole allure; it is also an international icon of great historical interest with many a visitor drawn to the area because of its rich maritime history",
                     
                     //Waterfront (http://www.waterfront.co.za)
-                    "This bustling shopping, dining and entertainment area neighbouring the Table Bay harbour is almost as synonymous with a visit to Cape Town, as the Table Mountain that looks upon it from up high.  Developed from redundant docklands, this vast property now blends seamlessly and attractively with the working harbour. Shop ‘till you drop: Shopping at the V&A Waterfront is a treat where you really can find absolutely anything your heart desires.  In the Victoria Wharf Shopping Centre, you will find all the major retailers as well as international brands. The Alfred Mall and Clock Tower Shopping Centre is where you’ll find a range of art, jewellery and specialty shops.  Watershed, the new home for African craft and design offers over 365 brands from 150 tenants for you to choose from. So much to see, do and buy: Shopping isn’t the only activity that can be enjoyed at the V&A Waterfront. You can also find two cinema complexes (which include the new luxury cinema, Scene) which feature the latest released films,  housed within the Victoria Wharf Shopping Centre.  The 123 hectare size property also has a world-class aquarium, the Two Oceans Aquarium and two museums; namely the Maritime and Chavonnes Battery museums. There are also guided and self-guided historical walking tours which the whole family can enjoy. The Cape Wheel is where you will be able to have an unsurpassed 360° view of the city.  For the sports fan, the Springbok Experience Rugby Museum celebrates the history of the Springboks and South African rugby. This museum can be found on Portswood Ridge, outside the croquet lawn. Entertainment offerings: The outdoor Amphitheatre plays host to music, dance and theatre throughout the year and right next door is the nautical-themed play area for children. And of course, the working harbour is part and parcel of the V&A experience. Not only can you watch tug boats tow large cruise ships in and out of the bay, but there are a number of boat trips regularly available.  The ferry that shuttles visitors to Robben Island leaves from Clock Tower Square.   If you don’t want to miss out on your daily exercise, you will enjoy the variety of cycle rental options on the property, walk or jog on the 2.5 or 5km running route or  just go for a relaxing walk on the beachfront board walk. Restaurants, restaurants and more restaurants: The V&A Waterfront has over 80 eateries so there is bound to be at least one that will serve up something to your liking.  The V&A Food Market also has a wide variety of food and dessert options for you to enjoy. Future developments: Zeitz MOCAA, a new not-for-profit institution, will be housed in the historic Grain Silo complex at the V&A Waterfront, with the V&A committing over R500-million to the development required for the establishment of the Museum. Built in 1921, and at 57m tall, the Grain Silo remains an icon of the Cape Town skyline. This investment will further the development of art in Africa and acknowledges the important cultural and financial contribution the visual arts sector makes. The R500-million redevelopment project, announced in November 2013 as a partnership between the V&A Waterfront and Jochen Zeitz will retain and honour the historic fabric and soul of the building while transforming the interior into a unique, cutting-edge space to house the Zeitz Museum of Contemporary Art Africa (Zeitz MOCAA). Considered the most extensive and representative collection of contemporary art from Africa, the Zeitz Collection has been gifted in perpetuity to this non-profit institution by ex-Puma CEO and Chairman, Jochen Zeitz.  The collection will be showcased in 9,500m2 of custom-designed space spread over nine floors, of which 6,000 m2 will be dedicated exhibition space. Completion of the project is due for end 2016. A message from Chantelle Cole, Executive Manager – Marketing - Silver Membership: “Our partnership with Cape Town Tourism is one that has allowed us to tailor objectives and tactics to our specific requirements in order to reach a wider audience to showcase the diversity of this property. As an organisation, CTT understands the importance of focusing locally to drive awareness and ultimately business, and address the challenge of seasonality. At the same time, we are given exposure to an international audience. This is perfectly in line with our strategic approach."]),
+                    "This bustling shopping, dining and entertainment area neighbouring the Table Bay harbour is almost as synonymous with a visit to Cape Town, as the Table Mountain that looks upon it from up high.  Developed from redundant docklands, this vast property now blends seamlessly and attractively with the working harbour. Shop ‘till you drop: Shopping at the V&A Waterfront is a treat where you really can find absolutely anything your heart desires.  In the Victoria Wharf Shopping Centre, you will find all the major retailers as well as international brands. The Alfred Mall and Clock Tower Shopping Centre is where you’ll find a range of art, jewellery and specialty shops.  Watershed, the new home for African craft and design offers over 365 brands from 150 tenants for you to choose from. So much to see, do and buy: Shopping isn’t the only activity that can be enjoyed at the V&A Waterfront. You can also find two cinema complexes (which include the new luxury cinema, Scene) which feature the latest released films,  housed within the Victoria Wharf Shopping Centre.  The 123 hectare size property also has a world-class aquarium, the Two Oceans Aquarium and two museums; namely the Maritime and Chavonnes Battery museums. There are also guided and self-guided historical walking tours which the whole family can enjoy. The Cape Wheel is where you will be able to have an unsurpassed 360° view of the city.  For the sports fan, the Springbok Experience Rugby Museum celebrates the history of the Springboks and South African rugby. This museum can be found on Portswood Ridge, outside the croquet lawn. Entertainment offerings: The outdoor Amphitheatre plays host to music, dance and theatre throughout the year and right next door is the nautical-themed play area for children. And of course, the working harbour is part and parcel of the V&A experience. Not only can you watch tug boats tow large cruise ships in and out of the bay, but there are a number of boat trips regularly available.  The ferry that shuttles visitors to Robben Island leaves from Clock Tower Square.   If you don’t want to miss out on your daily exercise, you will enjoy the variety of cycle rental options on the property, walk or jog on the 2.5 or 5km running route or  just go for a relaxing walk on the beachfront board walk. Restaurants, restaurants and more restaurants: The V&A Waterfront has over 80 eateries so there is bound to be at least one that will serve up something to your liking.  The V&A Food Market also has a wide variety of food and dessert options for you to enjoy. Future developments: Zeitz MOCAA, a new not-for-profit institution, will be housed in the historic Grain Silo complex at the V&A Waterfront, with the V&A committing over R500-million to the development required for the establishment of the Museum. Built in 1921, and at 57m tall, the Grain Silo remains an icon of the Cape Town skyline. This investment will further the development of art in Africa and acknowledges the important cultural and financial contribution the visual arts sector makes. The R500-million redevelopment project, announced in November 2013 as a partnership between the V&A Waterfront and Jochen Zeitz will retain and honour the historic fabric and soul of the building while transforming the interior into a unique, cutting-edge space to house the Zeitz Museum of Contemporary Art Africa (Zeitz MOCAA). Considered the most extensive and representative collection of contemporary art from Africa, the Zeitz Collection has been gifted in perpetuity to this non-profit institution by ex-Puma CEO and Chairman, Jochen Zeitz.  The collection will be showcased in 9,500m2 of custom-designed space spread over nine floors, of which 6,000 m2 will be dedicated exhibition space. Completion of the project is due for end 2016. A message from Chantelle Cole, Executive Manager – Marketing - Silver Membership: “Our partnership with Cape Town Tourism is one that has allowed us to tailor objectives and tactics to our specific requirements in order to reach a wider audience to showcase the diversity of this property. As an organisation, CTT understands the importance of focusing locally to drive awareness and ultimately business, and address the challenge of seasonality. At the same time, we are given exposure to an international audience. This is perfectly in line with our strategic approach."],
+            //LOCATION
+                mapX:[
+                    //"Table Mountain",
+                    -33.948020,
+                    //"Clifton Beach",
+                    -33.939799,
+                    //"Hop on hop off",
+                    -33.907470,
+                    //Bokaap
+                    -33.921248,
+                    //"Dive with seals",
+                    -33.910253,
+                  
+                    //"Visit Robben Island",
+                    -33.904320,
+                    //"Cape Point",
+                    -34.356494,
+                    //"V&A Waterfront"
+                    -33905660
+                ],
+                mapY:[
+                    //"Table Mountain",
+                    18.402531,
+                    //"Clifton Beach",
+                    18.375516,
+                    //"Hop on hop off",
+                    18.417416,
+                    //Bokaap,
+                    18.415014,
+
+                    //"Dive with seals",
+                    18.394393,
+                                       //"Visit Robben Island",
+                    18.420867,
+                    //"Cape Point",
+                    18.496330,
+                    //"V&A Waterfront"
+                    18.419929
+                    
+
+                ],
+                webSite:[
+                    //"Table Mountain",
+                    "http://www.tablemountain.net",
+                    //"Clifton Beach",
+                    "http://www.capetown.travel/attractions/entry/Clifton",
+                    //"Hop on hop off",
+                    "https://www.citysightseeing.co.za/cape-town",
+                    //Bo-Kaap
+                    "http://www.capetown.travel/attractions/entry/Bo-Kaap_and_De-Waterkant",
+
+                    //"Dive with seals",
+                    "http://intotheblue.co.za",
+                                      //"Visit Robben Island",
+                    "http://www.robben-island.org.za/tours)",
+                    //"Cape Point",
+                    "http://capepoint.co.za)",
+                    //"V&A Waterfront"
+                    "http://www.waterfront.co.za)"
+                ]
             
+            ),
+          
+            
+     
             
             //Adventure
             thirdViewandSoOn(detailPageHeading: [
@@ -353,12 +424,56 @@ class selectionTableViewController: UITableViewController {
                     "Lion’s Head forms part of the Table Mountain range and provides a scenic backdrop to the City of Cape Town. It falls within the Table Mountain National Park and rises to a height of 669m (2195ft) above sea level. During the 17th century Dutch settlers first named the peak Leeuwen Kop (Lion’s Head). Its counterpart, Signal Hill, was referred to as Leeuwen Staart (Lion’s Tail), as the two mountains and the space between them is reminiscent of a crouching feline. Lion’s Head is best known for its stunning views of the Mother City and Table Bay on one side, and the Atlantic shoreline on the other, which makes the hour-long walk to the top really worth the effort. Add a little mystery to the walk by tackling it during full moon and be rewarded with a glittering view of Cape Town by night. Photographers should set aside the first clear day of their visit to Cape Town to walk to the top of Lion’s Head, as it provides a great location to orientate oneself and from which to photograph the famous Robben Island prison, where South Africa’s former president, Nelson Mandela, was held captive for 19 years. Geographically speaking, the “table top” of Table Mountain is of sandstone origin, while its slopes are composed of granite. This underlying composition supports the growth of natural fynbos vegetation which, in turn, provides a home for a host of small animals. Many millions of years ago, Table Mountain, Signal Hill and Lion’s Head would all have been joined together, but due to erosion are now separate. The three-hour walk to the top of Lion’s Head is quite a challenge, and not suited to the unfit, elderly or very young. The route starts at Signal Hill Road, at the base of Forestry Road and spirals around the head to a section with chains. These have been put in place to assist climbers over a steep, rocky section. Although there is an alternate route that bypasses the chains, the ascent is still steep and not to be taken lightly.",
                     
                     //TokaiForest (http://www.southafrica.net/za/en/articles/entry/article-southafrica.net-tokai-forest-mountain-biking)
-                    "Tokai Forest, a lush expanse of green in the southern suburbs of Cape Town, offers mountain bike enthusiasts some of the best cycling routes imaginable. Within 20 minutes drive of the city centre, this forest is just as accessible as is it beautiful. If you ask any off-road cyclist in the Western Cape where the best mountain biking routes are, Tokai Forest is sure to be included in their answer. There are a number of clearly marked cycling trails to choose from, ensuring that there are options for both novice and expert cyclists. The pine, gum and eucalyptus trees of this forest stand magnificently tall, providing shade during the warm summer months. There are some excellent vantage points along the various routes, with terrific views of the Constantia vineyards and majestic Table Mountain. Along the more advanced routes, mountain bikers will have to negotiate a number of steep and tricky downhill slopes, including several hairpin bends. Fallen pine needles make some sections of the ride fairly slippery, adding to the challenge. Tokai Forest is managed and maintained by the Table Mountain National Park, under the auspices of South African National Parks (SANParks), and they have stepped up their conservation efforts to ensure the protection of the forest's biodiversity. Pop in at the Tokai Forest Arboretum when you arrive and let the authorities know that you will be cycling the forest's mountain biking routes. You can also get some expert information about the forest and its many natural wonders. Even in the car park, you are likely to meet local mountain biking enthusiasts who will gladly share some of their knowledge and stories with you. Various tour operators in Cape Town, including the highly-rated Downhill Adventures, offer guided tours of Tokai Forest, as well as mountain bike rentals for those who prefer to explore alone."]),
+                    "Tokai Forest, a lush expanse of green in the southern suburbs of Cape Town, offers mountain bike enthusiasts some of the best cycling routes imaginable. Within 20 minutes drive of the city centre, this forest is just as accessible as is it beautiful. If you ask any off-road cyclist in the Western Cape where the best mountain biking routes are, Tokai Forest is sure to be included in their answer. There are a number of clearly marked cycling trails to choose from, ensuring that there are options for both novice and expert cyclists. The pine, gum and eucalyptus trees of this forest stand magnificently tall, providing shade during the warm summer months. There are some excellent vantage points along the various routes, with terrific views of the Constantia vineyards and majestic Table Mountain. Along the more advanced routes, mountain bikers will have to negotiate a number of steep and tricky downhill slopes, including several hairpin bends. Fallen pine needles make some sections of the ride fairly slippery, adding to the challenge. Tokai Forest is managed and maintained by the Table Mountain National Park, under the auspices of South African National Parks (SANParks), and they have stepped up their conservation efforts to ensure the protection of the forest's biodiversity. Pop in at the Tokai Forest Arboretum when you arrive and let the authorities know that you will be cycling the forest's mountain biking routes. You can also get some expert information about the forest and its many natural wonders. Even in the car park, you are likely to meet local mountain biking enthusiasts who will gladly share some of their knowledge and stories with you. Various tour operators in Cape Town, including the highly-rated Downhill Adventures, offer guided tours of Tokai Forest, as well as mountain bike rentals for those who prefer to explore alone."],
+                //LOCATION
+                mapX:[
+                    //"Go Scuba",
+                    -33.910253,
+                    //"Hike Table mountain",
+                    -33.948020,
+                    //"Kayak the Atlantic",
+                    -33.906049,
+                    //"Paraglide",
+                    -33.917653,
+                    //"Abseil Table mountain",
+                    -33.947881,
+                    //"Hike Lion's head",
+                    -33.937104,
+                    //"Tokai forest"],
+                    -33.061136
+                ],
+                mapY:[
+                    //"Go Scuba",
+                    18.394393,
+                    //"Hike Table mountain",
+                    18.402531,
+                    //"Kayak the Atlantic",
+                    18.397979,
+                    //"Paraglide",
+                    18.402785,
+                    //"Abseil Table mountain",
+                    18.402215,
+                    //"Hike Lion's head",
+                    18.394834,
+                    //"Tokai forest"],
+                    18.414781
+                    
+                ],
+                webSite:[
+                    "http://www.tablemountain.net)",
+                    "http://kayak.co.za)",
+                    "https://flycapetown.co.za)",
+                    "http://abseilafrica.co.za/table-mountain-abseil-r795/)",
+                    "http://www.capetown.travel/activities/entry/lions_head)",
+                    "http://www.southafrica.net/za/en/articles/entry/article-southafrica.net-tokai-forest-mountain-biking)"
+                    
+                ]
+                
+            ),
             
             
             //Hungry
             thirdViewandSoOn(detailPageHeading: [
-                "Gourmet Boerie",
                 "El Burro",
                 "Village Idiot",
                 "Rick's Cafe American",
@@ -372,7 +487,6 @@ class selectionTableViewController: UITableViewController {
                 ],
                 
                 detailPageImage:[
-                    "gormetBoerie.png",
                     "elBuro.jpg",
                     "villageIdiot.jpg",
                     "ricksCafe.JPG",
@@ -386,8 +500,6 @@ class selectionTableViewController: UITableViewController {
                 ],
                 
                 detailPageInfo:[
-                    //Gormet Boerie (http://gourmetboerie.sitefly.co)
-                    "Gourmet Boerie is a unique one-of-a-kind restaurant situated in Cape Town, South Africa. Specialising in local hand crafted South African artisanal boerewors, served in a freshly baked roll with a variety of delicious toppings. Known locally as boerewors rolls, one of South Africa's most loved and historic street foods. Voted TOP 10 'Burger' joint in the world by British Airways.",
                     
                     //El burro (http://elburro.co.za/#) / http://www.food24.com/Restaurants-and-Bars/Restaurants/El-Burro-20101022
                     "El Burro is considered one of the best Mexican restaurants in Cape Town.  Their goal is to always serve fresh Mexican style ingredients, sometimes ingredients directly from Mexico. The vibe is very cool and the decor is very Dawn of the Dead.  If you don't feel up to eating a full meal, El Burro has a large bar section so you can get your Tequila fix. ",
@@ -418,7 +530,77 @@ class selectionTableViewController: UITableViewController {
                     
                     //Potluckclub (http://thepotluckclub.co.za)
                     "The Pot Luck Club, situated on the top floor of the Silo of the Old Biscuit Mill on Albert Road, Woodstock opened February 14th 2013. Since its opening day the pot luck has filled 2 sitting's each night throughout high and low season, running to capacity of one hundred and twenty guests. It has been dubbed the coolest place to be in Cape Town and its success is based on innovative cuisine, served in a relaxed yet edgy environment in part of Cape Town that has never attracted an evening dining crowd."
-                ]),
+                ],
+                //LOCATION
+                mapX:[
+                    //"El Burro",
+                    -33.908370,
+                    //"Village Idiot",
+                    -33.919531,
+                    //"Rick's Cafe American",
+                    -33.928409,
+                    //"Tiger's Milk",
+                    -34.108030,
+                    //"The Brass Bell",
+                    -34.126207,
+                    //"Dog's Bollocks",
+                    -33.932202,
+                    //"Beluga",
+                    -33.912484,
+                    //"Bombay Bicycle Club",
+                    -33.936708,
+                    //"tashas ",
+                    -33.902109,
+                    //"The Pot Luck Club",
+                    -33.927612
+                ],
+                mapY:[
+                    //"El Burro",
+                    18.411052,
+                    //"Village Idiot",
+                    18.421105,
+                    //"Rick's Cafe American",
+                    18.410495,
+                    //"Tiger's Milk",
+                    18.469368,
+                    //"The Brass Bell",
+                    18.449879,
+                    //"Dog's Bollocks",
+                    18.419171,
+                    //"Beluga",
+                    18.418302,
+                    //"Bombay Bicycle Club",
+                    18.404812,
+                    //"tashas ",
+                    18.421374,
+                    //"The Pot Luck Club",
+                    18.457342
+                ],
+                webSite:[
+                    
+                    //"El Burro",
+                    "http://elburro.co.za/#)",
+                    //"Village Idiot",
+                    "http://www.capetownmagazine.com/village-idiot)",
+                    //"Rick's Cafe American",
+                    "http://www.rickscafe.co.za/welcome_to_ricks.html)",
+                    //"Tiger's Milk",
+                    "http://tigersmilk.co.za)",
+                    //"The Brass Bell",
+                    "http://www.brassbell.co.za/wmenu.php)",
+                    //"Dog's Bollocks",
+                    "https://www.facebook.com/TheDogsBollocksAtYardCT/info?tab=overview)",
+                    //"Beluga",
+                    "http://www.beluga.co.za)",
+                    //"Bombay Bicycle Club",
+                    "http://www.thebombay.co.za)",
+                    //"tashas ",
+                    "http://www.tashascafe.com/#)",
+                    //"The Pot Luck Club",
+                    "http://thepotluckclub.co.za)"
+                ]
+                
+            ),
             
 
             
@@ -460,7 +642,53 @@ class selectionTableViewController: UITableViewController {
                     //Blouberg (http://www.capetown.travel/activities/entry/Blaauwberg_Beach_and_Kite_Surfing
                     "Just 20 minutes’ drive from Cape Town’s City Centre you’ll find beautiful Bloubergstrand which lies on the West Coast of Table Bay. Blouberg Beach, also known as Bloubergstrand and Blaauwberg Beach, known for its picture-postcard views of Cape Town and Table Mountain, is renowned for its kite surfing. Driven by the Cape’s south-easter winds, Bloubergstrand’s most popular pastime is Kitesurfing. With a wide, spacious beach (Dolphin Beach, a perfect launch pad), 10 - 30 knot winds and unbelievable views of Table Mountain it’s not surprising that this place attracts foreign visitors year round for kite surfing safaris. The main beach, Big Bay, hosts highly rated surfing contests every year. If you’re not out there defying gravity, or trying to perfect a forward loop grab as they say in kite surfing speak, the beachfront promenade has a wide variety of restaurants and cocktail bars with inspiring views of Table Mountain and Robben Island."
                     
-                ]),
+                ],
+                
+                //LOCATION
+                mapX:[
+                    //"Clifton",
+                    -33.939799,
+                    //"Camps bay",
+                    -33.9650282,
+                    //"Llandudno",
+                    -33.008216,
+                    //"St. James",
+                    -33.119144,
+                    //"Muizenberg",
+                    -33.108054,
+                    //"Blouberg"
+                    -33.801383
+                ],
+                mapY:[
+                    //"Clifton",
+                    18.375516,
+                    //"Camps bay",
+                    18.377117,
+                    //"Llandudno",
+                    18.342020,
+                    //"St. James",
+                    18.458175,
+                    //"Muizenberg",
+                    18.470404,
+                    //"Blouberg"
+                    18.458374
+                ],
+                webSite:[
+                    //"Clifton",
+                    "http://www.capetown.travel/attractions/entry/Clifton",
+                    //"Camps bay",
+                    "http://www.capetown.travel/attractions/entry/Camps_Bay",
+                    //"Llandudno",
+                    "https://www.capetown.gov.za/en/SportRecreation/Pages/LlandudnoBeach.aspx",
+                    //"St. James",
+                    "http://www.capetown.travel/attractions/entry/st_james",
+                    //"Muizenberg",
+                    "http://www.capetown.travel/attractions/entry/Muizenberg",
+                    //"Blouberg"
+                    "http://www.capetown.travel/activities/entry/Blaauwberg_Beach_and_Kite_Surfing"
+]
+                
+            ),
             
             
             //Coffee
@@ -506,7 +734,58 @@ class selectionTableViewController: UITableViewController {
                     //Bootlegger
                     "We are Bootlegger Coffee Company. The BCC is unapologetically passionate about great coffee, inspired people and a cafe culture made to serve you foods made from the best, locally sourced ingredients. It’s also a place really awesome people come to meet, laugh and live a little. If you’re looking for a local to hang your hat at or need a 6:30am caffeine cycle-by – you’re welcome."
                     
-                ]),
+                ],
+                
+                //LOCATION
+                mapX:[
+                    //"House of Machines",
+                    -33.921357,
+                    //"Bean there",
+                    -33.922757,
+                    //"Deluxe Coffeeworks",
+                    -33.932216,
+                    //"Origin Coffee",
+                    -33.917163,
+                    //"Kamili",
+                    -33.922059,
+                    //"Truth coffee",
+                    -33.928257,
+                    //"Bootlegger"
+                    -33.919782
+                
+                ],
+                mapY:[
+                    //"House of Machines",
+                    18.418805,
+                    //"Bean there",
+                    18.417217,
+                    //"Deluxe Coffeeworks",
+                    18.419179,
+                    //"Origin Coffee",
+                    18.417607,
+                    //"Kamili",
+                    18.419630,
+                    //"Truth coffee",
+                    18.422768,
+                    //"Bootlegger"
+                    18.385437
+                ],
+                webSite:[
+                    "http://thehouseofmachines.com",
+                    "https://www.beanthere.co.za/",
+                    "https://www.deluxecoffeeworks.co.za",
+                    "http://www.originroasting.co.za",
+                    "http://www.kamilicoffee.co.za",
+                    "http://www.truthcoffee.com",
+                    "http://bootlegger.co.za"
+                    
+                    
+                    
+                
+                
+                ]
+                
+            ),
             
             //Drinks
             thirdViewandSoOn(detailPageHeading: [
@@ -552,7 +831,61 @@ class selectionTableViewController: UITableViewController {
                     //Cafe Caprice (http://cafecaprice.co.za
                     "Café Caprice combines artisan cocktails, a café-style menu, relaxing lounges and sidewalk seating to experience the epitome of Cape Town’s cosmopolitan social scene. Situated directly across from Camps Bay Beach at 37 Victoria Road, open 7 days a week since 1999, it is a home for many Cape Townians and a must visit destination for tourists. Camps Bay beach is the ultimate sunset viewing spot and Café Caprice provides the perfect backdrop, as DJ’s fill the space with laid back music from Thursday to Sunday with a deep, chilled house soundtrack."
                     
-                ]),
+                ],
+                
+                //LOCATION
+                mapX:[
+                    //"Cabrito Bar",
+                    -33.908301,
+                    //"Mother's Ruin Gin Bar",
+                    -33.925598,
+                    //"Tjing Tjing",
+                    -33.922268,
+                    //"Beer House",
+                    -33.925430,
+                    //"Biergarten",
+                    -33.921643,
+                    //"Orphanage",
+                    -33.925765,
+                    //"Café Caprice"
+                    -33.950670
+                ],
+                mapY:[
+                    //"Cabrito Bar",
+                    18.411015,
+                    //"Mother's Ruin Gin Bar",
+                    18.413408,
+                    //"Tjing Tjing",
+                    18.418942,
+                    //"Beer House",
+                    18.415949,
+                    //"Biergarten",
+                    18.417324,
+                    //"Orphanage",
+                    18.413174,
+                    //"Café Caprice"
+                    18.378600
+                ],
+                webSite:[
+                    //"Cabrito Bar",
+                    "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0ahUKEwjV7brQzc7JAhUJPhQKHbswAnkQFggdMAA&url=http%3A%2F%2Fwww.capetownmagazine.com%2Fbars%2Fcabrito-bar-in-cape-town%2F53_22_19049&usg=AFQjCNF3WnNBfp4orXVEsqO_burhm4KGgw&sig2=kII41F3Q-_2a2WauVk3_CA",
+                    //"Mother's Ruin Gin Bar",
+                    "http://mothersruin.co.za",
+                    //"Tjing Tjing",
+                    "http://tjingtjing.co.za/",
+                    //"Beer House",
+                    "http://www.beerhouse.co.za",
+                    //"Biergarten",
+                    "http://www.capetownmagazine.com/brewers-andunion",
+                    //"Orphanage",
+                    "http://www.theorphanage.co.za",
+                    //"Café Caprice"
+                    "http://cafecaprice.co.za"
+
+                ]
+                
+            ),
+
             
             //Night Life
             thirdViewandSoOn(detailPageHeading: [
@@ -601,7 +934,61 @@ class selectionTableViewController: UITableViewController {
                     //Era (http://eracapetown.com/about
                     "This is ERA. A space where electronic music is celebrated through lifestyle, where audio and visual focus come together, where technology meets imagination as the senses are taken on a journey designed for pure enjoyment. ERA is the platform for expression, borne out of the passion for music and the creative minds behind it. This is the space to experience the sensation that we believe comes from the dedication to the lifestyle that is electronic music."
                     
-                ]),
+                ],
+                
+                //LOCATION
+                mapX:[
+                    //"Explore Kloof street",
+                    -33.929765,
+                    //"Submerged Sunday's",
+                    -33.904739,
+                    //"Long street",
+                    -33.925131,
+                    //"Café Caprice",
+                    -33.950670,
+                    //"Tjing Tjing",
+                    -33.922268,
+                    //"Piano bar",
+                    -33.915512,
+                    //"Era"
+                    -33.921426,
+                
+                ],
+                mapY:[
+                    //"Explore Kloof street",
+                    18.410924,
+                    //"Submerged Sunday's",
+                    18.429782,
+                    //"Long street",
+                    18.416236,
+                    //"Café Caprice",
+                    18.378600,
+                    //"Tjing Tjing",
+                    18.418942,
+                    //"Piano bar",
+                    18.417046,
+                    //"Era"
+                    18.419211,
+],
+                webSite:[
+                    //"Explore Kloof street",
+                    "http://www.travelstart.co.za/blog/kloof-street-",
+                    //"Submerged Sunday's",
+                    "http://www.shimmybeachclub.com/press-room/goldfish-submerged-sundays-back-at-shimmy-in-november-15/",
+                    //"Long street",
+                    "http://www.capetownmagazine.com/best-of-cape-town/top-places-to-party-in-cape-town/124_22_17297",
+                    //"Café Caprice",
+                    "http://cafecaprice.co.za",
+                    //"Tjing Tjing",
+                    "http://tjingtjing.co.za",
+                    //"Piano bar",
+                    "http://thepianobar.co.za",
+                    //"Era"
+                    "http://eracapetown.com/about"
+]
+                
+            ),
+
             
             
             //Markets
@@ -635,7 +1022,43 @@ class selectionTableViewController: UITableViewController {
                     //EarthFair ( http://capemarkets.co.za/markets/earth-fair-food-market/
                     "Earth Fair Market can be found in Main Rd Tokai (same centre as the Builders Warehouse) on a Wednesday and Saturday and in the beautiful tree lined Upper St Georges Mall on a Thursday. Each market has a distinct personality: Saturday is all about the weekly shopping; Wednesday is a buzzing hub of top up shopping, delicious dinner and drinks for the family and Thursday offers a vibey outdoor market in the heart of the City which is probably the closest to a European street market the Cape has to offer. Earth Fair has the best selection of fresh produce shopping traders in the Cape. The Saturday market has 5 free range meat traders, 2 vegetable traders (1 organic), cheese, breads (including speciality breads), fish, farm dairy, patisserie, pet foods and pretty much everything you would need for your weekly shop. Tokai is a well-established, indoor, conveniently situated market with lots of parking. Earth Fair is known for its strict trader standards and for its emphasis on getting people to take markets seriously as a shopping destination. While they take themselves seriously in the take home shopping department, that is not at the expense of a great vibe, toe tapping music and one of the biggest craft beer selections to be found. The Little People’s Corner offers great activities to keep the small people entertained while you shop and eat."
                     
-                ]),
+                ],
+                
+                //LOCATION
+                mapX:[
+                    //"Neighborgoods market",
+                    -33.927569,
+                    //"Houtbay market",
+                    -33.054962,
+                    //"Blue bird Garage",
+                    -33.103491,
+                    //"Earth fair market"
+                    -33.074608
+                ],
+                mapY:[
+                    //"Neighborgoods market",
+                    18.457614,
+                    //"Houtbay market",
+                    18.347221,
+                    //"Blue bird Garage",
+                    18.469481,
+                    //"Earth fair market"
+                    18.459444
+
+                ],
+                webSite:[
+                    //"Neighborgoods market",
+                    "http://neighbourgoodsmarket.co.za/cape-town/about-us",
+                    //"Houtbay market",
+                    "http://www.bayharbour.co.za",
+                    //"Blue bird Garage",
+                    "http://bluebirdmarket.co.za",
+                    //"Earth fair market"
+                    "http://capemarkets.co.za/markets/earth-fair-food-market/"
+                ]
+                
+            ),
+
 
             
             //Wine
@@ -668,7 +1091,42 @@ class selectionTableViewController: UITableViewController {
                     //Steenb
                     "Named after the year in which Steenberg was established, Bistro Sixteen82 first opened its doors in 2009, and has been the tapas and bistro-style darling of the dining world ever since. An innovative and interactive wine and food destination, the Bistro sits adjacent to Steenberg’s winery, and spills into its surrounding indigenous gardens with a terraced dining area leading to reflective water features, unfurling into views of the magnificent stone mountains and expansive winelands. The Bistro Sixteen82 menu is a constant evolution, keeping up with seasonal produce and featuring inventive dishes that compliment the finest locally sourced ingredients. With Breakfast, Lunch and late-afternoon Tapas menus to choose from, the Bistro provides fine dining with an inimitable contemporary spirit. Executive Chef, Kerry Kilpin, love to create food which is seasonal, flavourful and bursts with freshness.  My greatest inspirations are derived from significant occasions in my life.  On my travels to Thailand I developed a love and passion for Asian food.  From shopping at the local food markets to creating my first authentic Thai dish, I was in heaven.  You will notice a common thread in what I do and who I am. Love. I cook with love and my food is love. Internationally, Bistro Sixteen82 has been recognised in the list of 20 of the World’s Best Winery Restaurants by Canada’s renowned Wine Access magazine. Locally, listings included prominent mentions in Fleur du Cap’s Top 100 Places; Eat in Cape Town; and EAT OUT’s Best Bistros list."
                     
-                ]),
+                ],
+                
+                //LOCATION
+                mapX:[
+                    //"Beau Constantia",
+                    -33.013568,
+                    //"Stellenbosch wine",
+                    -33.937076,
+                    //"Groot Constantia",
+                    -33.030270,
+                    //"Bistro 1682"
+                    -33.075838
+                ],
+                mapY:[
+                    //"Beau Constantia",
+                    18.406311,
+                    //"Stellenbosch wine",
+                    18.860582,
+                    //"Groot Constantia",
+                    18.419009,
+                    //"Bistro 1682"
+                    18.422583
+                ],
+                webSite:[
+                    //"Beau Constantia",
+                    "http://www.beauconstantia.com",
+                    //"Stellenbosch wine",
+                    "http://vinehopper.co.za",
+                    //"Groot Constantia",
+                    "http://www.grootconstantia.co.za",
+                    //"Bistro 1682"
+                    "bistro 1682 | Steenberg"
+                ]
+                
+            ),
+
 
         
         ]
@@ -739,7 +1197,9 @@ class selectionTableViewController: UITableViewController {
         DestinationViewController.secondAnswerArray = theNewThird.detailPageHeading
         DestinationViewController.ThirdImageFinal = theNewThird.detailPageImage
         DestinationViewController.ThirdInfo = theNewThird.detailPageInfo
-        
+        DestinationViewController.MapX = theNewThird.mapX
+        DestinationViewController.MapY = theNewThird.mapY
+        DestinationViewController.website = theNewThird.webSite
 
       
     }

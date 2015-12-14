@@ -225,6 +225,25 @@
             </objects>
             <point key="canvasLocation" x="3030" y="155"/>
         </scene>
+        <!--First View Controller-->
+        <scene sceneID="3AK-4q-2wd">
+            <objects>
+                <viewController id="YX6-vb-foB" customClass="firstViewController" customModule="Cape_Town_Summer_Guide_2015" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y2T-f0-B5L"/>
+                        <viewControllerLayoutGuide type="bottom" id="oMt-nb-m5b"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bxL-cN-Bgm">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3z0-6W-adK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3429" y="-1061"/>
+        </scene>
         <!--Detailed New Table View Controller-->
         <scene sceneID="oOc-wg-oUs">
             <objects>
@@ -264,7 +283,7 @@
                                         <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="9hj-FX-tbr">
                                             <rect key="frame" x="0.0" y="75" width="590" height="47"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gaj-q9-L2Q">
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gaj-q9-L2Q">
                                                     <rect key="frame" x="0.0" y="0.0" width="285" height="47"/>
                                                     <animations/>
                                                     <constraints>
@@ -277,8 +296,11 @@
                                                             <exclude reference="f5S-jq-jUP"/>
                                                         </mask>
                                                     </variation>
+                                                    <connections>
+                                                        <action selector="moreInfoTapped:" destination="cXO-IN-Hz8" eventType="touchUpInside" id="VfH-BR-i6q"/>
+                                                    </connections>
                                                 </button>
-                                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S2J-JM-eLY">
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S2J-JM-eLY">
                                                     <rect key="frame" x="305" y="0.0" width="285" height="47"/>
                                                     <animations/>
                                                     <constraints>
@@ -291,6 +313,9 @@
                                                             <exclude reference="qFK-uv-y1F"/>
                                                         </mask>
                                                     </variation>
+                                                    <connections>
+                                                        <segue destination="5a8-OK-Gw8" kind="show" id="Ra5-vu-hCi"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                             <animations/>
@@ -336,6 +361,40 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OAr-Mt-5Ys" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3795" y="154"/>
+        </scene>
+        <!--Maps View Controller-->
+        <scene sceneID="IkE-Dw-5Ze">
+            <objects>
+                <viewController id="5a8-OK-Gw8" customClass="mapsViewController" customModule="Cape_Town_Summer_Guide_2015" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jDG-rZ-txq"/>
+                        <viewControllerLayoutGuide type="bottom" id="cTI-JU-biI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fs8-ko-1QW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="MmQ-n6-qYJ">
+                                <rect key="frame" x="5" y="69" width="590" height="491"/>
+                                <animations/>
+                            </mapView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="MmQ-n6-qYJ" firstAttribute="leading" secondItem="fs8-ko-1QW" secondAttribute="leading" constant="5" id="58r-xw-qqz"/>
+                            <constraint firstAttribute="trailing" secondItem="MmQ-n6-qYJ" secondAttribute="trailing" constant="5" id="nOA-w1-zJO"/>
+                            <constraint firstItem="cTI-JU-biI" firstAttribute="top" secondItem="MmQ-n6-qYJ" secondAttribute="bottom" constant="40" id="xGb-SK-zA5"/>
+                            <constraint firstItem="MmQ-n6-qYJ" firstAttribute="top" secondItem="jDG-rZ-txq" secondAttribute="bottom" constant="5" id="yin-YR-U22"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapViewer" destination="MmQ-n6-qYJ" id="D59-zv-Spi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ubh-Jc-Rsr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3795" y="938"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="NEk-GO-LsB">

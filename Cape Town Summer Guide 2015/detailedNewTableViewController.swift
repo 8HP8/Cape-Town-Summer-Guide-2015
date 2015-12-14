@@ -13,7 +13,15 @@ class detailedNewTableViewController: UITableViewController {
     var thirdLabelText = String()
     var thirdInfoText = String()
     var thirdNewImages = String()
+    var mapX = Double()
+    var mapY = Double()
+    var activityWebsite = String()
 
+    @IBAction func moreInfoTapped(sender: AnyObject) {
+        
+        print("\(activityWebsite)")
+          UIApplication.sharedApplication().openURL(NSURL(string: activityWebsite)!)
+    }
     
     private let tableTopImageHeight: CGFloat = 400.0
     private let tableTopImageCutOff: CGFloat = 50.0
@@ -25,6 +33,7 @@ class detailedNewTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    
         
         tableView.rowHeight = UITableViewAutomaticDimension
         headerView = tableView.tableHeaderView
@@ -129,4 +138,27 @@ class detailedNewTableViewController: UITableViewController {
         navigationController?.navigationBarHidden = false
     
     }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        let DestinationViewController = segue.destinationViewController as! mapsViewController
+        
+        DestinationViewController.mapLatitude = mapX
+        DestinationViewController.mapLongitude = mapY
+        
+    }
+    
+    
 }
+
+
+
+
+
+
+
+
+
+
+
+
