@@ -18,10 +18,11 @@ class detailedNewTableViewController: UITableViewController {
     var activityWebsite = String()
 
     @IBAction func moreInfoTapped(sender: AnyObject) {
-        
         print("\(activityWebsite)")
-          UIApplication.sharedApplication().openURL(NSURL(string: activityWebsite)!)
+        UIApplication.sharedApplication().openURL(NSURL(string: activityWebsite)!)
     }
+    
+
     
     private let tableTopImageHeight: CGFloat = 400.0
     private let tableTopImageCutOff: CGFloat = 50.0

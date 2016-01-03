@@ -30,10 +30,6 @@ class selectionTableViewController: UITableViewController {
         self.tableView.separatorColor = UIColor.clearColor()
 
 
-        
-        
-
-
         firstArray = [
             "Top2.jpg",
             "Top.jpg",
@@ -46,7 +42,7 @@ class selectionTableViewController: UITableViewController {
             "Winetasting.jpg"
         ]
         firstHeadingLabel = [
-            "Top thing to do",
+            "Top things to do",
             "Adventurous",
             "Hungry",
             "Beach bum",
@@ -372,11 +368,11 @@ class selectionTableViewController: UITableViewController {
                     //"Dive with seals",
                     "http://intotheblue.co.za",
                                       //"Visit Robben Island",
-                    "http://www.robben-island.org.za/tours)",
+                    "http://www.robben-island.org.za/tours",
                     //"Cape Point",
-                    "http://capepoint.co.za)",
+                    "http://capepoint.co.za",
                     //"V&A Waterfront"
-                    "http://www.waterfront.co.za)"
+                    "http://www.waterfront.co.za"
                 ]
             
             ),
@@ -460,12 +456,12 @@ class selectionTableViewController: UITableViewController {
                     
                 ],
                 webSite:[
-                    "http://www.tablemountain.net)",
-                    "http://kayak.co.za)",
-                    "https://flycapetown.co.za)",
-                    "http://abseilafrica.co.za/table-mountain-abseil-r795/)",
-                    "http://www.capetown.travel/activities/entry/lions_head)",
-                    "http://www.southafrica.net/za/en/articles/entry/article-southafrica.net-tokai-forest-mountain-biking)"
+                    "http://www.tablemountain.net",
+                    "http://kayak.co.za",
+                    "https://flycapetown.co.za",
+                    "http://abseilafrica.co.za/table-mountain-abseil-r795/",
+                    "http://www.capetown.travel/activities/entry/lions_head",
+                    "http://www.southafrica.net/za/en/articles/entry/article-southafrica.net-tokai-forest-mountain-biking"
                     
                 ]
                 
@@ -579,25 +575,25 @@ class selectionTableViewController: UITableViewController {
                 webSite:[
                     
                     //"El Burro",
-                    "http://elburro.co.za/#)",
+                    "http://elburro.co.za/#",
                     //"Village Idiot",
-                    "http://www.capetownmagazine.com/village-idiot)",
+                    "http://www.capetownmagazine.com/village-idiot",
                     //"Rick's Cafe American",
-                    "http://www.rickscafe.co.za/welcome_to_ricks.html)",
+                    "http://www.rickscafe.co.za/welcome_to_ricks.html",
                     //"Tiger's Milk",
-                    "http://tigersmilk.co.za)",
+                    "http://tigersmilk.co.za",
                     //"The Brass Bell",
-                    "http://www.brassbell.co.za/wmenu.php)",
+                    "http://www.brassbell.co.za/wmenu.php",
                     //"Dog's Bollocks",
-                    "https://www.facebook.com/TheDogsBollocksAtYardCT/info?tab=overview)",
+                    "https://www.facebook.com/TheDogsBollocksAtYardCT/info?tab=overview",
                     //"Beluga",
-                    "http://www.beluga.co.za)",
+                    "http://www.beluga.co.za",
                     //"Bombay Bicycle Club",
-                    "http://www.thebombay.co.za)",
+                    "http://www.thebombay.co.za",
                     //"tashas ",
-                    "http://www.tashascafe.com/#)",
+                    "http://www.tashascafe.com/#",
                     //"The Pot Luck Club",
-                    "http://thepotluckclub.co.za)"
+                    "http://thepotluckclub.co.za"
                 ]
                 
             ),
