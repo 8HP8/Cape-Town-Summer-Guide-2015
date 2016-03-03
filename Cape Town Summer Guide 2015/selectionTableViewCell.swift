@@ -14,10 +14,6 @@ class selectionTableViewCell: UITableViewCell {
     @IBOutlet weak var firstImage: UIImageView!
     @IBOutlet weak var firstTLabel: UILabel!
     
-    //TODO: link
-   // @IBOutlet weak var firstTLabel: UILabel!
-    //@IBOutlet weak var firstImage: UIImageView!
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

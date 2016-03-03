@@ -12,16 +12,23 @@ class activityTableViewController: UITableViewController {
 
     var secondArray = [String]()
     var secondHeaderLabel = [String]()
+    var secondAnswerArray = [String]()
+    var ThirdImageFinal = [String]()
+    var ThirdInfo = [String]()
+    
+    var MapX = [Double]()
+    var MapY = [Double]()
+    var website = [String]()
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        self.tableView.separatorColor = UIColor.clearColor()
 
-        
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
 
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
 
 
@@ -37,6 +44,7 @@ class activityTableViewController: UITableViewController {
         return 1
     }
 
+    
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
         return secondArray.count
@@ -45,13 +53,12 @@ class activityTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("secondCell", forIndexPath: indexPath) as! activitiesTableViewCell
 
+        
         let entry = secondArray[indexPath.row]
         let image = UIImage(named: entry)
-        
-        
-        
+
+
         cell.secondLabel?.text = secondHeaderLabel[indexPath.row]
-        
         cell.secondImage.image = image
         
         return cell
@@ -61,4 +68,25 @@ class activityTableViewController: UITableViewController {
         return 200.00
     }
 
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        let indexPath : NSIndexPath = self.tableView.indexPathForSelectedRow!
+        let DestinationViewController = segue.destinationViewController as! detailedNewTableViewController
+        
+        DestinationViewController.thirdLabelText = secondAnswerArray[indexPath.row]
+        DestinationViewController.thirdInfoText = ThirdInfo[indexPath.row]
+        DestinationViewController.thirdNewImages = ThirdImageFinal[indexPath.row]
+        
+        DestinationViewController.mapX = MapX[indexPath.row]
+        DestinationViewController.mapY = MapY[indexPath.row]
+        DestinationViewController.activityWebsite = website[indexPath.row]
+        
+        
+    }
+    
+
+    
 }
+
+
